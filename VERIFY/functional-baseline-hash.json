@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "unsigned_eboot_sha256": "e8ec50dc040aecf6b9a632adeef8698cf6748953c0c4d4e1a273e70ac8b8c69f",
+  "final_difference": "Added SELECT language shortcut to the menu header; localized TXT report templates; replaced decorative circles with rectangles to reduce vertex count. Mathematical engine unchanged."
+}

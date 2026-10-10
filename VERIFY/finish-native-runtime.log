@@ -1,0 +1,57 @@
+46:29:029 Vulkan/VulkanLoader.cpp:462 I[G3D]: VulkanMayBeAvailable: Device allowed ('SDL:Linux')
+46:29:029 Vulkan/VulkanLoader.cpp:401 I[G3D]: Vulkan library loaded ('libvulkan.so')
+46:29:029 Vulkan/VulkanLoader.cpp:511 I[G3D]: VulkanMayBeAvailable: Enumerating instance extensions
+46:29:029 Vulkan/VulkanLoader.cpp:522 I[G3D]: VulkanMayBeAvailable: Instance extension count: 4
+46:29:029 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_EXT_debug_report (0000000a)
+46:29:029 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_EXT_debug_utils (00000002)
+46:29:029 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_KHR_portability_enumeration (00000001)
+46:29:029 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_LUNARG_direct_driver_loading (00000001)
+46:29:029 Vulkan/VulkanLoader.cpp:548 E[G3D]: Surface extension not found
+46:29:029 Vulkan/VulkanLoader.cpp:649 W[G3D]: Vulkan with working device not detected.
+DEBUG: Vulkan is not available, not using Vulkan.
+Info: We compiled against SDL version 2.32.8 and we are linking against SDL version 2.32.8. :)
+46:29:031 Thread/ThreadManager.cpp:227 I[SYSTEM]: ThreadManager::Init(compute threads: 9, all: 18)
+46:29:031 Util/PortManager.cpp:475 I[SCENET]: UPnPService: Begin of UPnPService Thread
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/ppsspp/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /workspace/scratch/f88f298d7300/calcaero/private/toolchain/AppDir/shared/lib/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /workspace/scratch/f88f298d7300/calcaero/private/toolchain/AppDir/shared/lib
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/ppsspp/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/games/ppsspp/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /tmp/NjN1Q/ppsspp/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /tmp/NjN1Q/games/ppsspp/assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : assets
+46:29:032 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /root
+46:29:033 Core/Config.cpp:1594 N[AUDIO]: Secondary instance 2 - silencing audio
+OpenGL 2.0 or higher.
+46:29:096 Core/System.cpp:634 N[BOOT]: PPSSPP v1.20.4
+46:29:096 FileSystems/ISOFileSystem.cpp:176 E[FILESYS]: ISO looks bogus, expected CD001 signature not present? Giving up...
+46:29:211 idle0        N[BOOT]: UI/EmuScreen.cpp:391 Booted /workspace/scratch/f88f298d7300/calcaero/v1.3/SOURCE/build/emulator-final-5bkkv3so/ppsspp/PSP/GAME/CalcAero/EBOOT.PBP...
+Leaving main
+50:03:636 Vulkan/VulkanLoader.cpp:462 I[G3D]: VulkanMayBeAvailable: Device allowed ('SDL:Linux')
+50:03:636 Vulkan/VulkanLoader.cpp:401 I[G3D]: Vulkan library loaded ('libvulkan.so')
+50:03:636 Vulkan/VulkanLoader.cpp:511 I[G3D]: VulkanMayBeAvailable: Enumerating instance extensions
+50:03:637 Vulkan/VulkanLoader.cpp:522 I[G3D]: VulkanMayBeAvailable: Instance extension count: 4
+50:03:637 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_EXT_debug_report (0000000a)
+50:03:637 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_EXT_debug_utils (00000002)
+50:03:637 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_KHR_portability_enumeration (00000001)
+50:03:637 Vulkan/VulkanLoader.cpp:530 I[G3D]: VulkanMaybeAvailable: Instance extension found: VK_LUNARG_direct_driver_loading (00000001)
+50:03:637 Vulkan/VulkanLoader.cpp:548 E[G3D]: Surface extension not found
+50:03:637 Vulkan/VulkanLoader.cpp:649 W[G3D]: Vulkan with working device not detected.
+DEBUG: Vulkan is not available, not using Vulkan.
+Info: We compiled against SDL version 2.32.8 and we are linking against SDL version 2.32.8. :)
+50:03:640 Thread/ThreadManager.cpp:227 I[SYSTEM]: ThreadManager::Init(compute threads: 9, all: 18)
+50:03:640 Util/PortManager.cpp:475 I[SCENET]: UPnPService: Begin of UPnPService Thread
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/ppsspp/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /workspace/scratch/f88f298d7300/calcaero/private/toolchain/AppDir/shared/lib/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /workspace/scratch/f88f298d7300/calcaero/private/toolchain/AppDir/shared/lib
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/ppsspp/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /usr/local/share/games/ppsspp/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /tmp/NjN1Q/ppsspp/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /tmp/NjN1Q/games/ppsspp/assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : assets
+50:03:640 VFS/VFS.cpp:14 D[IO]: Registered VFS for prefix : /root
+OpenGL 2.0 or higher.
+50:03:713 Core/System.cpp:634 N[BOOT]: PPSSPP v1.20.4
+50:03:714 FileSystems/ISOFileSystem.cpp:176 E[FILESYS]: ISO looks bogus, expected CD001 signature not present? Giving up...
+50:03:858 idle0        N[BOOT]: UI/EmuScreen.cpp:391 Booted /workspace/scratch/f88f298d7300/calcaero/v1.3/SOURCE/build/emulator-final-5bkkv3so/ppsspp/PSP/GAME/CalcAero/EBOOT.PBP...
+Leaving main

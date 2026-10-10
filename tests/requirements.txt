@@ -1,0 +1,3 @@
+mpmath==1.3.0
+websockets>=13,<16
+Pillow>=10

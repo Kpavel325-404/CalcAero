@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "installed_files": 34,
+  "installed_bytes": 7639457,
+  "catalogs": 26,
+  "font_files": 7,
+  "foreign_installed_config": false,
+  "foreign_installed_saved_state": false,
+  "signed_eboot_sha256": "c339e9c348c9aec62bef966db4031738fac0365c68ef934cdf1d13223c74af37"
+}

@@ -1,0 +1,31 @@
+# Reproducible build outputs at the repository root
+/build/
+/dist/
+/EBOOT.PBP
+/EBOOT-SIGNED.PBP
+/PARAM.SFO
+*.o
+*.elf
+*.prx
+*.map
+*.so
+*.pyc
+__pycache__/
+# Local settings, saves and exports
+/config.json*
+/state.dat*
+/aero.dat*
+/reports/
+/PSP/GAME/CalcAero/config.json*
+/PSP/GAME/CalcAero/state.dat*
+/PSP/GAME/CalcAero/aero.dat*
+/PSP/GAME/CalcAero/reports/
+# Editor files and credentials
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key

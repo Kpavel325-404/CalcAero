@@ -1,0 +1,10 @@
+{
+  "signed": {
+    "pbp_sha256": "a477ef319e314ac353ffbc267e87b468a9ec857721de38bbe775bed46f879b96",
+    "data_psp_sha256": "bd4fa52b7810d6b79efa1cdff5a3b87600851431f467181bf0464f75d0ba87a9"
+  },
+  "unsigned": {
+    "pbp_sha256": "1016314e18e31814385cce0241bfdebf9e5fdeef1e31369ae9201e020f1cb53e",
+    "data_psp_sha256": "698bc021a8bef9b17df61cb5798e872e8b2f1ff912dabeb7e93b95f1d350fdb3"
+  }
+}

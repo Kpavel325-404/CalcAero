@@ -1,0 +1,13 @@
+mksfoex -d MEMSIZE=0 -s PSP_SYSTEM_VER=6.60 'CalcAero 1.3' PARAM.SFO
+pack-pbp EBOOT.PBP PARAM.SFO ICON0.png  \
+	NULL NULL PIC1.png  \
+	NULL  calcaero.prx NULL
+[0]        320 bytes | PARAM.SFO
+[1]       5428 bytes | ICON0.png
+[2]          0 bytes | NULL
+[3]          0 bytes | NULL
+[4]      36469 bytes | PIC1.png
+[5]          0 bytes | NULL
+[6]    3462974 bytes | calcaero.prx
+[7]          0 bytes | NULL
+ebootsign EBOOT.PBP EBOOT-SIGNED.PBP

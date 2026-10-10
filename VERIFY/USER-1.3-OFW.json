@@ -1,0 +1,28 @@
+{
+  "application": "CalcAero",
+  "version": "1.3",
+  "status": "user_reported_pass",
+  "quotes": [
+    "Поздравляю - всё работает. Даже на OFW.",
+    "Проверялось на 6.61 ARK-5 5.1.0 cIPL (CFW) и на официальной OFW 6.61"
+  ],
+  "tested_firmwares": [
+    {
+      "kind": "OFW",
+      "version": "6.61",
+      "result": "user_reported_pass"
+    },
+    {
+      "kind": "CFW",
+      "system_version": "6.61",
+      "cfw": "ARK-5",
+      "cfw_version": "5.1.0",
+      "bootloader": "cIPL",
+      "result": "user_reported_pass"
+    }
+  ],
+  "console_model": null,
+  "independent_assistant_hardware_test": false,
+  "all_models_and_both_ofw_versions_verified": false,
+  "signed_eboot_sha256": "c339e9c348c9aec62bef966db4031738fac0365c68ef934cdf1d13223c74af37"
+}

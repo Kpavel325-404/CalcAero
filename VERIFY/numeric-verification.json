@@ -1,0 +1,21 @@
+{
+  "checks": 22537,
+  "reference": "Python Fraction + mpmath 100 digits",
+  "seed": 20261004,
+  "groups": {
+    "core": 26,
+    "rational": 10000,
+    "angles": 2250,
+    "inverse_angles": 1800,
+    "transcendental": 2500,
+    "hyperbolic": 1000,
+    "complex": 707,
+    "errors": 24,
+    "bounds": 2,
+    "tools": 221,
+    "units": 7,
+    "programmer": 4000
+  },
+  "max_scaled_error": 2.010743688027545e-12,
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "SVG XML, resolution and finite coordinates",
+    "Graph CSV 241 samples, all curves and blank discontinuity",
+    "History CSV exact rational and quoted expression",
+    "History CSV exact rational and quoted expression"
+  ]
+}

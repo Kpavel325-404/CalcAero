@@ -1,0 +1,17 @@
+* -text
+*.c text eol=lf
+*.h text eol=lf
+*.inc text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+Makefile text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+vendor/** -text
+VERIFY/** -text
+PSP/** -text
+UNSIGNED/** -text
+tests/fixtures/** -text

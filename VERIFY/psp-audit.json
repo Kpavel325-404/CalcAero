@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "module_attributes": "0x0 (user)",
+  "main_thread_attributes": "0x80004000",
+  "main_stack_kib": 256,
+  "heap_kib": 4096,
+  "static_image_bytes": 4359952,
+  "reserved_image_heap_stack_bytes": 8816400,
+  "imports": [
+    {
+      "library": "sceUtility",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 5,
+      "nids": [
+        "0xf6269b82",
+        "0x3dfaeba9",
+        "0x4b85c861",
+        "0xf3f76017",
+        "0xa5da2406"
+      ]
+    },
+    {
+      "library": "scePower",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 1,
+      "nids": [
+        "0x4b7766e"
+      ]
+    },
+    {
+      "library": "sceCtrl",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 3,
+      "nids": [
+        "0x6a2774f3",
+        "0x1f4011e6",
+        "0x3a622550"
+      ]
+    },
+    {
+      "library": "sceDisplay",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 4,
+      "nids": [
+        "0xe20f177",
+        "0x289d82fe",
+        "0xeeda2e54",
+        "0x984c27e7"
+      ]
+    },
+    {
+      "library": "sceGe_user",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 7,
+      "nids": [
+        "0xe47e40e4",
+        "0xab49e76a",
+        "0xe0d68148",
+        "0x3444eb4",
+        "0xb287bd61",
+        "0xa4fc06a4",
+        "0x5db22ce"
+      ]
+    },
+    {
+      "library": "sceNetInet",
+      "version": 0,
+      "attributes": "0x9",
+      "functions": 5,
+      "nids": [
+        "0x8d7284ea",
+        "0xcda85c99",
+        "0x7aa671bc",
+        "0x2fe71fe7",
+        "0xfbabe411"
+      ]
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 14,
+      "nids": [
+        "0x810c4bc3",
+        "0x109f50bc",
+        "0x6a638d83",
+        "0x42ec03ac",
+        "0x27eb27b8",
+        "0xb29ddf9c",
+        "0xe3eb004c",
+        "0xeb092469",
+        "0xf27a9c51",
+        "0x6a70004",
+        "0x55f4717d",
+        "0xab96437f",
+        "0xace946e8",
+        "0x779103a0"
+      ]
+    },
+    {
+      "library": "Kernel_Library",
+      "version": 0,
+      "attributes": "0x9",
+      "functions": 4,
+      "nids": [
+        "0x92968f4",
+        "0x5f10d406",
+        "0xbea46419",
+        "0x15b6446b"
+      ]
+    },
+    {
+      "library": "ModuleMgrForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 1,
+      "nids": [
+        "0xd675ebb8"
+      ]
+    },
+    {
+      "library": "StdioForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 3,
+      "nids": [
+        "0x172d316e",
+        "0xa6bab2e9",
+        "0xf78ba90a"
+      ]
+    },
+    {
+      "library": "SysMemUserForUser",
+      "version": 0,
+      "attributes": "0x4008",
+      "functions": 4,
+      "nids": [
+        "0xa291f107",
+        "0x237dbd4f",
+        "0xb6d61d02",
+        "0x9d9a5ba1"
+      ]
+    },
+    {
+      "library": "ThreadManForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 25,
+      "nids": [
+        "0xe81caf8f",
+        "0x82826f70",
+        "0xceadeb47",
+        "0x68da9e36",
+        "0xd6da4ba1",
+        "0x28b6489c",
+        "0x3f53e640",
+        "0x4e3a1105",
+        "0x55c20a00",
+        "0xef9e4c70",
+        "0x1fb15a32",
+        "0xf0b7da1c",
+        "0x876dbfad",
+        "0x884c9f90",
+        "0x74829b76",
+        "0xdf52098f",
+        "0x33be4024",
+        "0x82bc5777",
+        "0x446d8de6",
+        "0x9fa03cd3",
+        "0xf475845d",
+        "0x293b45b8",
+        "0x17c1684e",
+        "0x60107536",
+        "0x19cff145"
+      ]
+    },
+    {
+      "library": "UtilsForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 1,
+      "nids": [
+        "0x3ee30821"
+      ]
+    },
+    {
+      "library": "LoadExecForUser",
+      "version": 0,
+      "attributes": "0x4009",
+      "functions": 2,
+      "nids": [
+        "0x5572a5f",
+        "0x4ac57943"
+      ]
+    }
+  ],
+  "sfo": {
+    "MEMSIZE": 0,
+    "PSP_SYSTEM_VER": "6.60",
+    "BOOTABLE": 1,
+    "CATEGORY": "MG",
+    "DISC_ID": "UCJS10041",
+    "DISC_VERSION": "1.00",
+    "PARENTAL_LEVEL": 1,
+    "REGION": 32768,
+    "TITLE": "CalcAero 1.3"
+  },
+  "psp1000_large_memory": false,
+  "cpu_clock_changes": false,
+  "signer": "int-0/ebootsigner (pspdev v20261001)",
+  "signed_psp_magic": "~PSP",
+  "unsigned_eboot_sha256": "7d107d5822741be51fa892d292d04d4d3c25287699649a66d856e6bfd23e1814",
+  "signed_eboot_sha256": "c339e9c348c9aec62bef966db4031738fac0365c68ef934cdf1d13223c74af37",
+  "physical_ofw_660_test": false,
+  "physical_ofw_661_test": false
+}

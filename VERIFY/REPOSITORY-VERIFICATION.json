@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "purpose": "Restore GitHub package and renew download link",
+  "restored_on": "2026-10-10",
+  "original_release_sha256": "8a685b4115db3fb63713fa095320ead6f00f0083d6b0f9748dc488f2788530f9",
+  "original_manifest_verified_entries": 743,
+  "unchanged_code_assets_binaries_files": 453,
+  "signed_eboot_sha256": "c339e9c348c9aec62bef966db4031738fac0365c68ef934cdf1d13223c74af37",
+  "source_code_changed": false,
+  "original_automated_json_unchanged": true,
+  "numerical_suite_rerun": false,
+  "hardware_confirmation": "USER-1.3-OFW.json"
+}
