@@ -16,3 +16,11 @@ turn an emulator result into a physical console result.
 The old hardware flags in automated JSON reflect the scope of those tests.
 Earlier user BMP screenshots are evidence from version 1.2, not new 1.3 photos.
 The numerical/UI suites were not re-run merely to renew a download link.
+
+
+## English public screenshots
+
+The owner supplied 18 English CalcAero 1.3 BMP captures on 10 October 2026.
+[USER-1.3-ENGLISH/README.md](USER-1.3-ENGLISH/README.md) records their provenance,
+original hashes and lossless PNG conversion. These images now illustrate the
+public README and theme gallery; old public host previews remain in Git history.

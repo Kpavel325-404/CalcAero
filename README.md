@@ -6,9 +6,9 @@ Version **1.3** · Native PSP application · Signed EBOOT · MIT-licensed origin
 
 | Calculate | Choose your language |
 |:---:|:---:|
-| ![CalcAero calculator](PREVIEW/features/calculator.png) | ![English first-start language picker](PREVIEW/languages/en.png) |
+| ![CalcAero calculator](PREVIEW/features/calculator.png) | ![English 26-language picker](PREVIEW/languages/en.png) |
 
-[Русская документация](README-RU.md) · [Build from source](BUILD.md) · [Features and limits](FEATURES.md) · [Verification](VERIFY/README.md)
+[Русская документация](README-RU.md) · [Screenshot gallery](PREVIEW/README.md) · [Build from source](BUILD.md) · [Features and limits](FEATURES.md) · [Verification](VERIFY/README.md)
 
 ## Install
 
@@ -59,7 +59,10 @@ native-speaker review are described in [LOCALIZATION.md](LOCALIZATION.md).
 | | Night Retro |
 | | WebCore Math |
 
-![All eight CalcAero themes](PREVIEW/CalcAero-1.3-Themes.png)
+![All eight CalcAero themes in English](PREVIEW/CalcAero-1.3-Themes.png)
+
+Real screenshots supplied by the project owner, shown in English. Each 480×272
+frame is preserved unchanged. [Browse all 18 captures](PREVIEW/README.md).
 
 ## Firmware and hardware reports
 
@@ -75,6 +78,16 @@ does not raise the CPU clock, and does not request the 64 MiB memory expansion.
 The supplied automated runtime reports cover PPSSPP's PSP-1000/32 MiB model at
 222 MHz and HLE firmware profiles 6.60/6.61. Separate physical tests for OFW 6.60
 and every PSP model are not recorded. See [OFW.md](OFW.md) for the audit details.
+
+## English interface in use
+
+| Programmer mode | Laboratory |
+|:---:|:---:|
+| ![Programmer mode in English](PREVIEW/features/programmer.png) | ![Laboratory in English](PREVIEW/features/laboratory.png) |
+
+| Study mode | Help and controls |
+|:---:|:---:|
+| ![Study mode in English](PREVIEW/features/study-mode.png) | ![English help](PREVIEW/features/help.png) |
 
 ## Verification included
 

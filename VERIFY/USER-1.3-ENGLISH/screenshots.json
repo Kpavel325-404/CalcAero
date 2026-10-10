@@ -1,0 +1,324 @@
+{
+  "application": "CalcAero",
+  "visible_version": "1.3",
+  "received_date": "2026-10-10",
+  "source": "project_owner_supplied_bmp",
+  "interface_language": "en",
+  "firmware_for_each_capture": null,
+  "independent_assistant_hardware_test": false,
+  "conversion": "lossless BMP RGB to PNG RGB; no resizing or content edits",
+  "files": [
+    {
+      "number": 1,
+      "uploaded_filename": "CalcAero-Screen-0001(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0001.bmp",
+      "original_bmp_sha256": "7540f7df8b444345f89f2b36a7c95f6298dbc5978f02842e0f99aa84c0828cb1",
+      "png": "PREVIEW/screenshots/01-programmer.png",
+      "png_sha256": "4610ba319ebdedca40a986f8554799fbca61757c9576ad0dfa7cddf022074cc0",
+      "caption": "Programmer mode",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 2,
+      "uploaded_filename": "CalcAero-Screen-0002(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0002.bmp",
+      "original_bmp_sha256": "7759a866773861b9e2519c41e55afd3421a152534452e352ce7a95ba1b2c8533",
+      "png": "PREVIEW/screenshots/02-languages.png",
+      "png_sha256": "eb981fcc4be6ccaf84c0c104acf5bbbb848155748bf51e8a20fd65eac5e535de",
+      "caption": "26-language picker",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 3,
+      "uploaded_filename": "CalcAero-Screen-0003(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0003.bmp",
+      "original_bmp_sha256": "a1c719cd4bef4137d94bd36630a5ebe84a43565e434901a3a048943427fa27c5",
+      "png": "PREVIEW/screenshots/03-calculator.png",
+      "png_sha256": "bf9354431a9d39d9b1f630fbae256bb6c50a4729358bc44c03a12064f7afdbe0",
+      "caption": "Calculator: numbers",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 4,
+      "uploaded_filename": "CalcAero-Screen-0004(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0004.bmp",
+      "original_bmp_sha256": "da53fb77e47251905705a39285f3b0882c717c5a0d0e4fb78e44cd287ec374a9",
+      "png": "PREVIEW/screenshots/04-calculator-angles-logarithms.png",
+      "png_sha256": "dcc462b2a40fcf8cb038a645929cac6b920e007d8e4b8c4d667944e7a1963f1c",
+      "caption": "Angles and logarithms",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 5,
+      "uploaded_filename": "CalcAero-Screen-0005(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0005.bmp",
+      "original_bmp_sha256": "b40e0ed5cc1c26c5856b333ae81ba0a116ffded5fa6bd3fa1a4fc43639758815",
+      "png": "PREVIEW/screenshots/05-calculator-functions.png",
+      "png_sha256": "aa151d57217f9676c604de7859a25f71b4f6c1ad4e41532cd3eade6b09bea6e8",
+      "caption": "Functions",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 6,
+      "uploaded_filename": "CalcAero-Screen-0006(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0006.bmp",
+      "original_bmp_sha256": "42e6574e7270df01c75fce417b8ac17c6cba29914d359e5d2b6f65c847bfe56b",
+      "png": "PREVIEW/screenshots/06-calculator-memory-constants.png",
+      "png_sha256": "46fd4f03d6e915023c10807ffd092a444132cd4411c144df45934c234d202e14",
+      "caption": "Memory and constants",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 7,
+      "uploaded_filename": "CalcAero-Screen-0007(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0007.bmp",
+      "original_bmp_sha256": "b06270643f792bb9de76816c091ba8e908e402ec219adf170e0c102f9be456fb",
+      "png": "PREVIEW/screenshots/07-calculator-hex-input.png",
+      "png_sha256": "de5fc0d0960c23f73c18903c3de590f6890df2c2e23d640f36f1828506c8c62c",
+      "caption": "HEX and input",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 8,
+      "uploaded_filename": "CalcAero-Screen-0008(1).bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0008.bmp",
+      "original_bmp_sha256": "6d6f91ba1e761e31bb2e962ed14f18f9341d8bc61a65af5297462cd2768781ea",
+      "png": "PREVIEW/screenshots/08-calculator-graph-keys.png",
+      "png_sha256": "229ef445eb536426927dbafaf8960de5792d0cf560d8d864ba1791148066a5e9",
+      "caption": "Graph keys and custom functions",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 9,
+      "uploaded_filename": "CalcAero-Screen-0009.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0009.bmp",
+      "original_bmp_sha256": "76f50a39d08a8a408560e2f632405f580182a67312ed8c90b3ae827df3a90ac3",
+      "png": "PREVIEW/screenshots/09-laboratory.png",
+      "png_sha256": "df208618137f77645740d36dfbadbdd121dd1961f7b5ca0d7c1243e0bafc1481",
+      "caption": "Laboratory",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 10,
+      "uploaded_filename": "CalcAero-Screen-0010.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0010.bmp",
+      "original_bmp_sha256": "87691779b145f880f727944ba1354430c0f84b1d29159680a315b5b0c5de9f16",
+      "png": "PREVIEW/screenshots/10-study-mode.png",
+      "png_sha256": "70ccdde3290f97a433bed5476122fb3092365d525f245ac4f41f93bc6fb3d733",
+      "caption": "Study mode",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 11,
+      "uploaded_filename": "CalcAero-Screen-0011.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0011.bmp",
+      "original_bmp_sha256": "ad00630152091d3eef17f3c7d7adfe8689794792bf1190436cb3ba7a84fcb1b8",
+      "png": "PREVIEW/screenshots/11-help.png",
+      "png_sha256": "bdad6c561cb098b475bc84116ba6a9f2e59c69ecdf3286d6ea91d018ba761055",
+      "caption": "Help and controls",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 12,
+      "uploaded_filename": "CalcAero-Screen-0012.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0012.bmp",
+      "original_bmp_sha256": "aef4d53be84e89692edb868f3e83e4eeab1adfc873744b5774300d18085bac5f",
+      "png": "PREVIEW/screenshots/12-settings-night-retro.png",
+      "png_sha256": "7a890b5d462c514bcb4dd6767700755895278a000292d67fd8cdd73801f65775",
+      "caption": "Night Retro",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 13,
+      "uploaded_filename": "CalcAero-Screen-0013.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0013.bmp",
+      "original_bmp_sha256": "f66bed0f8c61ea7e114a6c260e78ed8e34eec44fb52da42afa5d2a8bee1daf55",
+      "png": "PREVIEW/screenshots/13-settings-webcore-math.png",
+      "png_sha256": "502b4d7a7c1783540663336048bf17b1f49fd45c600725f039b14310d6131545",
+      "caption": "WebCore Math",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 14,
+      "uploaded_filename": "CalcAero-Screen-0014.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0014.bmp",
+      "original_bmp_sha256": "29eb5cf89844d91dc427d78a259a2a865c172fcf8355d3193fa7bed3d0294f67",
+      "png": "PREVIEW/screenshots/14-settings-aero-blue.png",
+      "png_sha256": "bdcb51f1b1454baa0741fad3c86db767f576de4f884d43855409bbd5f97e2549",
+      "caption": "Aero Blue",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 15,
+      "uploaded_filename": "CalcAero-Screen-0015.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0015.bmp",
+      "original_bmp_sha256": "8efab4b8df33420d7ba8306cedbef0d8bf519deea57af9faa8c626b05cec6c68",
+      "png": "PREVIEW/screenshots/15-settings-aero-green.png",
+      "png_sha256": "ca8ac3ba0b9c9232d716d9b5838a5508fc56f4954b1b80fc6c7da64936f7a619",
+      "caption": "Aero Green",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 16,
+      "uploaded_filename": "CalcAero-Screen-0016.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0016.bmp",
+      "original_bmp_sha256": "59c88e8e13963fc021b83b32ed39855e0d283c9b5733a78f9116b6de88c8d436",
+      "png": "PREVIEW/screenshots/16-settings-vista-night.png",
+      "png_sha256": "0ff1d951aca2b357eaabe96e82013d1903faa11ec53896f18f846f0920bc0096",
+      "caption": "Vista Night",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 17,
+      "uploaded_filename": "CalcAero-Screen-0017.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0017.bmp",
+      "original_bmp_sha256": "ab643dab41a9b69e2cc4024f53b9ebbc55625561ec8c993fb960a6b3d3dc1416",
+      "png": "PREVIEW/screenshots/17-settings-windows-xp-luna.png",
+      "png_sha256": "6cb57892e26e66d6c66c50e68a1083dcdb1c1ba2f7a0bfea693929fc345d5c32",
+      "caption": "Windows XP Luna",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    },
+    {
+      "number": 18,
+      "uploaded_filename": "CalcAero-Screen-0018.bmp",
+      "original_bmp": "VERIFY/USER-1.3-ENGLISH/CalcAero-Screen-0018.bmp",
+      "original_bmp_sha256": "3df89fb8bf4ced1b4ca0793860d4c44244bd05ead1e15001c74cf760569ce1ce",
+      "png": "PREVIEW/screenshots/18-settings-windows-vista-aero.png",
+      "png_sha256": "60bc2a16f35bc393eb6ba594f1feea4cafe7d322a61c890da18e731f5e9c6fa4",
+      "caption": "Windows Vista Aero",
+      "resolution": [
+        480,
+        272
+      ],
+      "language": "en",
+      "pixels_preserved": true
+    }
+  ],
+  "themes": [
+    {
+      "name": "Aero Blue",
+      "source_capture": 14,
+      "png": "PREVIEW/themes/0-Aero-Blue.png"
+    },
+    {
+      "name": "Aero Green",
+      "source_capture": 15,
+      "png": "PREVIEW/themes/1-Aero-Green.png"
+    },
+    {
+      "name": "Vista Night",
+      "source_capture": 16,
+      "png": "PREVIEW/themes/2-Vista-Night.png"
+    },
+    {
+      "name": "Windows XP Luna",
+      "source_capture": 17,
+      "png": "PREVIEW/themes/3-Windows-XP-Luna.png"
+    },
+    {
+      "name": "Windows Vista Aero",
+      "source_capture": 18,
+      "png": "PREVIEW/themes/4-Windows-Vista-Aero.png"
+    },
+    {
+      "name": "Vaporwave",
+      "source_capture": 3,
+      "png": "PREVIEW/themes/5-Vaporwave.png"
+    },
+    {
+      "name": "Night Retro",
+      "source_capture": 12,
+      "png": "PREVIEW/themes/6-Night-Retro.png"
+    },
+    {
+      "name": "WebCore Math",
+      "source_capture": 13,
+      "png": "PREVIEW/themes/7-WebCore-Math.png"
+    }
+  ]
+}
