@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down■ アイテム  X■オープン",
   "O or /\\: close menu": "O あるいは /\\メニューの近く",
   "Save failed: check the memory card": "失敗を保存する:メモリカードをチェック",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "カルカエロ 1.3\n%s\nエンジンモード: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "カルカエロ 1.3\n%s\nエンジンモード: %s\n\n",
   "Input: %s\n\n": "入力: %s\n\n",
   "Formula exceeds supported rules or length limit": "フォーミュラはサポートされたルールまたは長さ制限を超える",
   "Requires degree <=8 polynomial with exact int64 coefficients": "レベルが必要です=8 ポリノミー正確 int64 コエフェクト",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "インテリア: DEC0xHEX、0bBIN、0oOCT",
   "Shift: from 0 to %d": "転送:から 0 に %d",
   "Unknown operation": "未知の操作",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "カルカエロ 1.3\n計算の歴史(北西第一)\n～==約の意味 ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "カルカエロ 1.3\n計算の歴史(北西第一)\n～==約の意味 ",
   "result; angle units are saved for each item.\n\n": "結果:各項目に角度単位が保存されます。\n\n",
   "Numbers": "数字",
   "Angles / logarithms": "ロガリズム / Logarithms",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "ルールは守る DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "オリジナルの公式のドメインで有効、",
   "where the function is differentiable.": "機能が差別可能な場所",
-  "Language / 26 languages": "言語 / 26言語",
-  "Choose your language / 26": "あなたの言語を選択する / 26",
+  "Language / 28 languages": "言語 / 28言語",
+  "Choose your language / 28": "あなたの言語を選択する / 28",
   "X: select and save  O: calculator": "X: 選択して保存する O: 計算機",
   "Arrows: select  X/START: save language": "ラウンド: X/START を選択: 言語を保存",
   "Language is saved in config.json": "言語は config.json で保存されます。",
   "Language save failed: check assets and memory card": "言語保存が失敗:資産とメモリカードをチェック",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "カルカエロ 1.3\n計算の歴史(北西第一)\n～==約の意味 結果:各項目に角度単位が保存されます。\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "カルカエロ 1.3\n計算の歴史(北西第一)\n～==約の意味 結果:各項目に角度単位が保存されます。\n\n"
 }

@@ -28,7 +28,7 @@ def verify_prefix(old):
     assert len(files)==14
     for tool,file in enumerate(files):
         text=file.read_text()
-        assert text.startswith('CalcAero 1.3') and 'Режим углов' in text
+        assert text.startswith(e.APP_TITLE) and 'Режим углов' in text
         assert not any(x in text for x in ['Некоррект','Проверь параметры','Неизвестный инструмент','вне поддерживаемых'])
         assert f'screen final-lab-{tool}\n' in trace
         if tool==0:assert 'Ответ = 1/2' in text
@@ -55,7 +55,7 @@ def verify_prefix(old):
 async def run(restart):
     async with await connect() as ws:
         p=e.Pad(ws);version=await p.request('version');await asyncio.sleep(1)
-        assert (await p.request('game.status'))['game']['title']=='CalcAero 1.3'
+        assert (await p.request('game.status'))['game']['title']==e.APP_TITLE
         if restart:
             assert json.loads((e.GAME/'config.json').read_text())['language']=='ru'
             assert struct.unpack_from('<I',e.state()['raw'],324)[0]==7
@@ -65,16 +65,16 @@ async def run(restart):
             e.checks.append('release signed EBOOT: fresh process restores Russian, theme 7, function, matrix, study, history and Ans; f(3)=16, Ans+1=17 (HLE 6.61)')
             return version
         assert not (e.GAME/'config.json').exists()
-        await p.screen('final-first-start-English-26')
+        await p.screen('final-first-start-English-28')
         await p.press('cross');assert json.loads((e.GAME/'config.json').read_text())['language']=='en'
-        e.checks.append('release signed EBOOT: no config defaults to English and opens all 26 choices; first selection saves immediately')
+        e.checks.append('release signed EBOOT: no config defaults to English and opens all 28 choices; first selection saves immediately')
         old=0
-        for lang in range(26):
+        for lang in range(len(CODES)):
             if lang:await language(p,lang,old)
             old=lang
             assert json.loads((e.GAME/'config.json').read_text())['language']==CODES[lang]
             await p.screen('final-language-'+CODES[lang])
-        e.checks.append('release signed EBOOT: all 26 final languages and fonts, SELECT shortcut, immediate JSON persistence')
+        e.checks.append('release signed EBOOT: all 28 final languages and fonts, SELECT shortcut, immediate JSON persistence')
         await language(p,13,old)
         await p.menu(9)
         for _ in range(5):await p.press('down')
@@ -95,7 +95,7 @@ async def run(restart):
         await p.menu(2);await p.press('cross');await p.press('start')
         count=len(list((e.GAME/'reports').glob('CalcAero-Report-*.txt')))
         await p.menu(18);text=(await e.wait_file('CalcAero-Report-*.txt',count+1)).read_text()
-        assert text.startswith('CalcAero 1.3') and 'Режим углов' in text and 'Ответ = 1/2' in text
+        assert text.startswith(e.APP_TITLE) and 'Режим углов' in text and 'Ответ = 1/2' in text
         await p.screen('final-native-report')
         e.checks.append('release signed EBOOT: native 480x272 BMP and localized exact-fraction TXT report')
         return version
@@ -136,6 +136,6 @@ def main():
         controller_presses=e.press_count,checks=e.checks,completed_prefix=prefix,
         game_directory=str(e.GAME.relative_to(ROOT)),screens_directory=str(e.SCREEN.relative_to(ROOT)),assets=hashes)
     (ROOT/'build/final-native-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-    print('PASS: release signed EBOOT, default English, 26 final languages, 8 themes, 32 MB / 222 MHz and restart',flush=True)
+    print('PASS: release signed EBOOT, default English, 28 final languages, 8 themes, 32 MB / 222 MHz and restart',flush=True)
 
 if __name__=='__main__':main()

@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down• елемент  X• Отворено",
   "O or /\\: close menu": "O или /\\Закључак мени",
   "Save failed: check the memory card": "Спасите неуспех: проверите меморијску картицу",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Цалцаеро 1.3\n%s\nУгао мода: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Цалцаеро 1.3\n%s\nУгао мода: %s\n\n",
   "Input: %s\n\n": "Увођење : %s\n\n",
   "Formula exceeds supported rules or length limit": "Формула прелази подржане правила или ограничење дужине",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Потребна је степен <=8 Полиномија са тачним int64 Коефицијент",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Интегрирају се: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Промена: од 0 да %d",
   "Unknown operation": "Непозната операција",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Цалцаеро 1.3\nИсторија рачунања (невестер први)\n* = значи приближно ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Цалцаеро 1.3\nИсторија рачунања (невестер први)\n* = значи приближно ",
   "result; angle units are saved for each item.\n\n": "резултат; угао јединице се чувају за сваки елемент.\n\n",
   "Numbers": "Бројеви",
   "Angles / logarithms": "Енглески / Логаритми",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Правило поштује DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "важећи у домену оригиналне формуле,",
   "where the function is differentiable.": "где је функција диференцирана.",
-  "Language / 26 languages": "Језик / 26 језика",
-  "Choose your language / 26": "Изаберите свој језик / 26",
+  "Language / 28 languages": "Језик / 28 језика",
+  "Choose your language / 28": "Изаберите свој језик / 28",
   "X: select and save  O: calculator": "X: изаберите и сачувате О: калкулатор",
   "Arrows: select  X/START: save language": "Долазак: изаберите X/START: сачувати језик",
   "Language is saved in config.json": "Језик је сачуван у config.json",
   "Language save failed: check assets and memory card": "Језик спасавање није успео: проверите имовину и меморијску картицу",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Цалцаеро 1.3\nИсторија рачунања (невестер први)\n* = значи приближно резултат; угао јединице се чувају за сваки елемент.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Цалцаеро 1.3\nИсторија рачунања (невестер први)\n* = значи приближно резултат; угао јединице се чувају за сваки елемент.\n\n"
 }

@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Вверх/вниз: пункт  X: открыть",
   "O or /\\: close menu": "O или /\\: закрыть меню",
   "Save failed: check the memory card": "Не удалось сохранить: проверь карту памяти",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "CalcAero 1.2\n%s\nРежим углов: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "CalcAero 1.2\n%s\nРежим углов: %s\n\n",
   "Input: %s\n\n": "Ввод: %s\n\n",
   "Formula exceeds supported rules or length limit": "Формула вне поддерживаемых правил или предела длины",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Нужен многочлен степени <=8 с точными коэффициентами int64",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Целые: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Сдвиг: от 0 до %d",
   "Unknown operation": "Неизвестная операция",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.2\nИстория вычислений (новые сверху)\n~= означает приближённый ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.2\nИстория вычислений (новые сверху)\n~= означает приближённый ",
   "result; angle units are saved for each item.\n\n": "ответ; углы сохранены для каждой записи.\n\n",
   "Numbers": "Числа",
   "Angles / logarithms": "Углы / логарифмы",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Правило учитывает DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Действует в области исходной формулы,",
   "where the function is differentiable.": "где функция дифференцируема.",
-  "Choose your language / 26": "Выбери язык / 26",
+  "Choose your language / 28": "Выбери язык / 28",
   "X: select and save  O: calculator": "X: выбрать и сохранить  O: калькулятор",
   "Arrows: select  X/START: save language": "Стрелки: выбор  X/START: сохранить язык",
   "Language is saved in config.json": "Язык сохраняется в config.json",
   "Language save failed: check assets and memory card": "Язык не сохранён: проверь assets и карту памяти",
-  "Language / 26 languages": "Язык / 26 языков",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.2\nИстория вычислений (новые сверху)\n~= означает приближённый ответ; углы сохранены для каждой записи.\n\n"
+  "Language / 28 languages": "Язык / 28 языков",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.2\nИстория вычислений (новые сверху)\n~= означает приближённый ответ; углы сохранены для каждой записи.\n\n"
 }

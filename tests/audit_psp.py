@@ -38,7 +38,8 @@ sfo=(ROOT/'PARAM.SFO').read_bytes();keyat,datat,count=struct.unpack_from('<III',
 for i in range(count):
  key,fmt,length,maxlen,off=struct.unpack_from('<HHIII',sfo,20+i*16);name=sfo[keyat+key:].split(b'\0')[0].decode();raw=sfo[datat+off:datat+off+length]
  fields[name]=u32(raw) if fmt==0x404 else raw.rstrip(b'\0').decode()
-assert fields['MEMSIZE']==0 and fields['PSP_SYSTEM_VER']=='6.60' and fields['TITLE']=='CalcAero 1.3'
+version=re.search(r'#define AERO_VERSION "([^"]+)"',(ROOT/'src/aero.h').read_text()).group(1)
+assert fields['MEMSIZE']==0 and fields['PSP_SYSTEM_VER']=='6.60' and fields['TITLE']=='CalcAero '+version
 signed=(ROOT/'EBOOT-SIGNED.PBP').read_bytes();unsigned=(ROOT/'EBOOT.PBP').read_bytes()
 a=struct.unpack_from('<8I',signed,8);u=struct.unpack_from('<8I',unsigned,8);assert signed[:4]==b'\0PBP' and signed[a[6]:a[6]+4]==b'~PSP' and unsigned[u[6]:u[6]+4]==b'\x7fELF'
 assert signed[a[0]:a[6]]==unsigned[u[0]:u[6]]

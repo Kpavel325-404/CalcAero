@@ -252,7 +252,7 @@ int aero_export_report(const char *dir, const CLApp *a, char *name, size_t cap) 
     Output o;
     if (!open_output(dir, "Report", "txt", &o, name, cap))
         return 0;
-    fprintf(o.f, "CalcAero 1.3\n%s\nAngle mode: %s\n\n", title,
+    fprintf(o.f, "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n", title,
             a->save.ctx.angle == CL_DEG   ? "DEG"
             : a->save.ctx.angle == CL_RAD ? "RAD"
                                           : "GRAD");

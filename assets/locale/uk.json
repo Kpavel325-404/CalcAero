@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/downТематика: елемент  X• Відкритий",
   "O or /\\: close menu": "O або /\\Докладніше: Близький меню",
   "Save failed: check the memory card": "Зберегти не вдалося: перевірте карту пам'яті",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Калкаєро 1.3\n%s\nМодуль з вугілля: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Калкаєро 1.3\n%s\nМодуль з вугілля: %s\n\n",
   "Input: %s\n\n": "Вхідний : %s\n\n",
   "Formula exceeds supported rules or length limit": "Формула перевищує підтримувані правила або ліміт довжини",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Вимоги до ступеня <=8 ПОЛІНОМІАЛЬНІ З ТОЗНОВНІМ int64 Коефіцити",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Включіть : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Перехід: від 0 до %d",
   "Unknown operation": "Невідома операція",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Калкаєро 1.3\nІсторія обчислення (Нью-Вест перший)\n* = означає приблизний ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Калкаєро 1.3\nІсторія обчислення (Нью-Вест перший)\n* = означає приблизний ",
   "result; angle units are saved for each item.\n\n": "Результат; кутові одиниці зберігаються для кожного елемента.\n\n",
   "Numbers": "Кількість",
   "Angles / logarithms": "Логоритми / Logarithms",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Правило поважає DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "діє в домені оригінальної формули,",
   "where the function is differentiable.": "де функція відрізняється.",
-  "Language / 26 languages": "Мова / 26 мов",
-  "Choose your language / 26": "Вибір мови / 26",
+  "Language / 28 languages": "Мова / 28 мов",
+  "Choose your language / 28": "Вибір мови / 28",
   "X: select and save  O: calculator": "X: вибрати і зберегти O: калькулятор",
   "Arrows: select  X/START: save language": "Виберіть X/START: зберегти мову",
   "Language is saved in config.json": "Мова зберігається в config.json",
   "Language save failed: check assets and memory card": "Мова збереження не вдалося: перевірити активи і картку пам'яті",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Калкаєро 1.3\nІсторія обчислення (Нью-Вест перший)\n* = означає приблизний Результат; кутові одиниці зберігаються для кожного елемента.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Калкаєро 1.3\nІсторія обчислення (Нью-Вест перший)\n* = означає приблизний Результат; кутові одиниці зберігаються для кожного елемента.\n\n"
 }

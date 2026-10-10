@@ -1,4 +1,4 @@
-# Build CalcAero 1.3
+# Build CalcAero 1.3.1
 
 Use pspdev v20261001 with PSPSDK, HarfBuzz, FreeType, libpng, zlib, bzip2 and C++
 runtime libraries. `assets` already contains the catalogs and font subsets.
@@ -24,6 +24,13 @@ libraries. Adapt HOST_FONT_INCLUDE/HOST_FONT_LIBS to the host installation.
 `tests/preview.c` rasterizes the real C renderer, including its font atlas.
 `tests/build_locale.py` optionally regenerates catalogs/font subsets using
 fontTools and the upstream fonts. PSP never uses Python or a translation model.
+
+For a Latin-language update, `python3 tests/build_locale.py --keep-script-fonts`
+rebuilds all catalogs and the DejaVu base subset, then validates and retains the
+existing Noto script subsets. DejaVuSans.ttf must be installed at the path used
+by the script. `tests/verify_language_update.py --ppsspp-root /path/to/AppDir` verifies
+the signed update, English first boot, Portuguese and French, UTF-8 TXT/BMP exports and a
+fresh-process restore at 32 MiB / 222 MHz with HLE 6.60/6.61.
 
 `tests/audit_psp.py` inspects ELF/SFO/PBP; pass PSP_TOOLS if the SDK has a different
 location. Native tests use PPSSPP 1.20.4's controller and read-only VRAM debugger

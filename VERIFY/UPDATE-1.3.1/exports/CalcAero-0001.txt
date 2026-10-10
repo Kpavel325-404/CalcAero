@@ -1,0 +1,6 @@
+CalcAero 1.3.1
+Histórico de cálculos (mais recentes primeiro)
+~= indica um resultado aproximado; as unidades angulares são guardadas em cada item.
+
+01. [DEG / real] 1/2
+    = 1/2

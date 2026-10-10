@@ -65,7 +65,7 @@ def main():
         'L/R: keys  SELECT: DEG/RAD/GRAD  /\\: menu': 'L/R: пернелер  SELECT: DEG/RAD/GRAD  /\\: мәзір',
         '[]: enter f(x)  START: plot': '[]: f(x) енгізу  START: график',
         'WINDOW: arrows move; L/R: zoom': 'ТЕРЕЗЕ: бағыттау пернелері; L/R: масштаб',
-        'Choose your language / 26': 'Тілді таңдаңыз / 26',
+        'Choose your language / 28': 'Тілді таңдаңыз / 28',
         'Language is saved in config.json': 'Тіл config.json файлына сақталады',
         'X: select and save  O: calculator': 'X: таңдау және сақтау  O: калькулятор',
         'Arrows: select  X/START: save language': 'Бағыттар: таңдау  X/START: тілді сақтау',

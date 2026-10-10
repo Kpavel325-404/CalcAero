@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "languages": 28,
+  "messages": 535,
+  "catalogs": {
+    "en": {
+      "bytes": 20518,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "de": {
+      "bytes": 23295,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "it": {
+      "bytes": 23376,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "pl": {
+      "bytes": 22801,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "es": {
+      "bytes": 23693,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "nl": {
+      "bytes": 22737,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "et": {
+      "bytes": 22473,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "fi": {
+      "bytes": 22959,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "sv": {
+      "bytes": 22125,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "ro": {
+      "bytes": 23703,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "el": {
+      "bytes": 35402,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "ar": {
+      "bytes": 28588,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "kk": {
+      "bytes": 32289,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "ru": {
+      "bytes": 32963,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "be": {
+      "bytes": 35415,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "uk": {
+      "bytes": 33435,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "sr": {
+      "bytes": 32159,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "bs": {
+      "bytes": 21965,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "hr": {
+      "bytes": 22645,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "cs": {
+      "bytes": 22685,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "sk": {
+      "bytes": 22649,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "zh-TW": {
+      "bytes": 19307,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "zh-CN": {
+      "bytes": 19280,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "hi": {
+      "bytes": 39759,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "ko": {
+      "bytes": 23866,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "ja": {
+      "bytes": 23849,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "pt": {
+      "bytes": 22343,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    },
+    "fr": {
+      "bytes": 22978,
+      "entries": 535,
+      "printf_signatures": "PASS"
+    }
+  },
+  "fonts": {
+    "base.ttf": {
+      "bytes": 67128,
+      "unicode_characters": 339,
+      "missing_required_glyphs": 0
+    },
+    "ar.ttf": {
+      "bytes": 29180,
+      "unicode_characters": 144,
+      "missing_required_glyphs": 0
+    },
+    "hi.ttf": {
+      "bytes": 153288,
+      "unicode_characters": 154,
+      "missing_required_glyphs": 0
+    },
+    "zh-TW.otf": {
+      "bytes": 354720,
+      "unicode_characters": 653,
+      "missing_required_glyphs": 0
+    },
+    "zh-CN.otf": {
+      "bytes": 284888,
+      "unicode_characters": 665,
+      "missing_required_glyphs": 0
+    },
+    "ko.otf": {
+      "bytes": 115916,
+      "unicode_characters": 514,
+      "missing_required_glyphs": 0
+    },
+    "ja.otf": {
+      "bytes": 335152,
+      "unicode_characters": 602,
+      "missing_required_glyphs": 0
+    }
+  }
+}

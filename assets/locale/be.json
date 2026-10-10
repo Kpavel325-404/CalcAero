@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/downТэкст  XАрыгінальны",
   "O or /\\: close menu": "O або /\\Менавіта меню",
   "Save failed: check the memory card": "Памятаеце, у казках спасылаецца памяць",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Кальцы 1.3\n%s\nАрыгінальны мод: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Кальцы 1.3\n%s\nАрыгінальны мод: %s\n\n",
   "Input: %s\n\n": "Уваход у: %s\n\n",
   "Formula exceeds supported rules or length limit": "Формула перавышае падтрыманыя правілы або ліміт даўжынёй",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Забяспечыць ступені <=8 Пытанні, якія часта задаюць пра вегетарыянства int64 Коэффициенты",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Арыгінальны інтэгратар: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Стыпендыі: з 0 для %d",
   "Unknown operation": "Незнаёмыя операцыі",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Кальцы 1.3\nВынікі пошуку - Newest First\n= = значыць прыкладнае ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Кальцы 1.3\nВынікі пошуку - Newest First\n= = значыць прыкладнае ",
   "result; angle units are saved for each item.\n\n": "Узнікае пытанне: калі іх ведае увесь свет, ці можна назваць іх няўдачнікамі?\n\n",
   "Numbers": "Кіры",
   "Angles / logarithms": "Англіі / Logarithms",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Права паважае DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Важна ў доменнай формуле,",
   "where the function is differentiable.": "Там, дзе функцыя адрозніваецца.",
-  "Language / 26 languages": "Мова / 26 моў",
-  "Choose your language / 26": "Выбраць свой мову / 26",
+  "Language / 28 languages": "Мова / 28 моў",
+  "Choose your language / 28": "Выбраць свой мову / 28",
   "X: select and save  O: calculator": "X: Выбраць і захаваць O: калькулятар",
   "Arrows: select  X/START: save language": "Выбраць X/START: спасцігнуць мову",
   "Language is saved in config.json": "Язык спасылаецца ў config.json",
   "Language save failed: check assets and memory card": "Язык спажывання не справіўся: праверыць актывісты і картку памяці",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Кальцы 1.3\nВынікі пошуку - Newest First\n= = значыць прыкладнае Узнікае пытанне: калі іх ведае увесь свет, ці можна назваць іх няўдачнікамі?\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Кальцы 1.3\nВынікі пошуку - Newest First\n= = значыць прыкладнае Узнікае пытанне: калі іх ведае увесь свет, ці можна назваць іх няўдачнікамі?\n\n"
 }

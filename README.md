@@ -1,12 +1,20 @@
 # CalcAero for PSP
 
-**A scientific calculator with an Aero-inspired interface, 26 languages and eight themes.**
+**A scientific calculator with an Aero-inspired interface, 28 languages and eight themes.**
 
-Version **1.3** · Native PSP application · Signed EBOOT · MIT-licensed original code
+Version **1.3.1** · Native PSP application · Signed EBOOT · MIT-licensed original code
+
+**New in 1.3.1:** Português (`pt`) and Français (`fr`), 535 messages per language, accented font
+glyphs, and a 28-language picker. Existing settings and mathematical saves remain
+compatible. [Release notes](RELEASE-NOTES-1.3.1.md).
 
 | Calculate | Choose your language |
 |:---:|:---:|
-| ![CalcAero calculator](PREVIEW/features/calculator.png) | ![English 26-language picker](PREVIEW/languages/en.png) |
+| ![CalcAero calculator](PREVIEW/features/calculator.png) | ![English 28-language picker](PREVIEW/languages/en.png) |
+
+The calculator and theme gallery use real owner captures from 1.3. The updated
+language picker is a native 1.3.1 PPSSPP capture; its provenance is recorded in
+[the update verification](VERIFY/UPDATE-1.3.1/README.md).
 
 [Русская документация](README-RU.md) · [Screenshot gallery](PREVIEW/README.md) · [Build from source](BUILD.md) · [Features and limits](FEATURES.md) · [Verification](VERIFY/README.md)
 
@@ -14,15 +22,16 @@ Version **1.3** · Native PSP application · Signed EBOOT · MIT-licensed origin
 
 1. Copy the **PSP** folder from the release package to your Memory Stick or PSP Go storage.
 2. Launch **Game → Memory Stick → CalcAero** (or the PSP Go storage where it is installed).
-3. Choose your language. A fresh installation starts in **English** and displays all 26 choices.
+3. Choose your language. A fresh installation starts in **English** and displays all 28 choices.
 
 The application lives in `PSP/GAME/CalcAero/`. Keep `EBOOT.PBP` and the entire
 `assets` folder together. For an update, merge the folders and replace these files;
 keep your existing saves and `reports` folder. The supplied installer contains no
 other user's settings or saved state.
 
-The repository ZIP also includes source code and Git history. Only its `PSP`
-folder is needed on the console. The `.git` directory stays on your computer.
+Only the `PSP` folder is needed on the console. The update ZIP also contains
+`GitHub-Update`, with the changed source, documentation and verification files
+for merging into the existing repository on your computer.
 
 ## What it can do
 
@@ -36,11 +45,11 @@ folder is needed on the console. The `.git` directory stays on your computer.
 
 Mathematical and numerical limits are documented in [FEATURES.md](FEATURES.md).
 
-## 26 languages
+## 28 languages
 
 English, Deutsch, Italiano, Polski, Español, Nederlands, Eesti, Suomi, Svenska,
 Română, Ελληνικά, العربية, Қазақша, Русский, Беларуская, Українська, Српски,
-Bosanski, Hrvatski, Čeština, Slovenčina, 繁體中文, 简体中文, हिन्दी, 한국어 and 日本語.
+Bosanski, Hrvatski, Čeština, Slovenčina, 繁體中文, 简体中文, हिन्दी, 한국어, 日本語, Português and Français.
 
 If `config.json` is absent or does not contain a valid language, CalcAero starts
 with `LANG_EN`. Selecting a language saves it immediately; subsequent launches
@@ -66,7 +75,7 @@ frame is preserved unchanged. [Browse all 18 captures](PREVIEW/README.md).
 
 ## Firmware and hardware reports
 
-The project owner reports successful operation of this release on:
+The project owner reports successful operation of **version 1.3** on:
 
 | Firmware | Result | Evidence |
 |---|---|---|
@@ -77,7 +86,8 @@ The signed build targets OFW 6.60/6.61 and CFW. The application uses User Mode,
 does not raise the CPU clock, and does not request the 64 MiB memory expansion.
 The supplied automated runtime reports cover PPSSPP's PSP-1000/32 MiB model at
 222 MHz and HLE firmware profiles 6.60/6.61. Separate physical tests for OFW 6.60
-and every PSP model are not recorded. See [OFW.md](OFW.md) for the audit details.
+and every PSP model are not recorded. **The 1.3.1 update has not yet received a
+physical console test report.** See [OFW.md](OFW.md) for the audit details.
 
 ## English interface in use
 
@@ -93,8 +103,9 @@ and every PSP model are not recorded. See [OFW.md](OFW.md) for the audit details
 
 The original release reports contain **25,415 numerical checks** and **1,694 UI
 states**. They are preserved under `VERIFY`; hardware reports are recorded
-separately. Restoration verifies the source, resources and installed signed
-EBOOT against the original release bytes. See [verification notes](VERIFY/README.md).
+separately. Fresh 1.3.1 reports and emulator screenshots are kept in
+[VERIFY/UPDATE-1.3.1](VERIFY/UPDATE-1.3.1/README.md).
+See [verification notes](VERIFY/README.md).
 
 ## Build and contribute
 

@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/downТарабы:  XАшық:",
   "O or /\\: close menu": "O немесе /\\: жабық мәзір",
   "Save failed: check the memory card": "Сақтау жаңылысы: жады картасын тексеріңіз",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "CalcAero 1.3\n%s\nБұрыштық режим: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "CalcAero 1.3.1\n%s\nБұрыштық режим: %s\n\n",
   "Input: %s\n\n": "Кіріс: %s\n\n",
   "Formula exceeds supported rules or length limit": "Формула қолданатын ережелерді немесе ұзындығы шегінен асып түседі",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Степенді талап етеді <=8 дәйекті көптік int64 коэффициенттер",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Толық сандар: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "ауысым: 0 үшін %d",
   "Unknown operation": "Белгісіз операция",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.3\nЕсептеу тарихы (алғашқы жаңа)\n~= шамамен ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.3.1\nЕсептеу тарихы (алғашқы жаңа)\n~= шамамен ",
   "result; angle units are saved for each item.\n\n": "Нәтижесі; әр элемент үшін бұрыштық бірліктер сақталады.\n\n",
   "Numbers": "Сандар",
   "Angles / logarithms": "Бұрыш / логарифмдер",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Қағиданы құрметтеу DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Бастапқы формуланың аймағында жарамды,",
   "where the function is differentiable.": "функциясы дифференциацияланады.",
-  "Choose your language / 26": "Тілді таңдаңыз / 26",
+  "Choose your language / 28": "Тілді таңдаңыз / 28",
   "X: select and save  O: calculator": "X: таңдау және сақтау  O: калькулятор",
   "Arrows: select  X/START: save language": "Бағыттар: таңдау  X/START: тілді сақтау",
   "Language is saved in config.json": "Тіл config.json файлына сақталады",
   "Language save failed: check assets and memory card": "Тіл сақталмады: assets пен жад картасын тексеріңіз",
-  "Language / 26 languages": "Тіл / 26 тіл",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.3\nЕсептеу тарихы (алғашқы жаңа)\n~= шамамен нәтижеді білдіреді; әр элемент үшін бұрыштық бірліктер сақталады.\n\n"
+  "Language / 28 languages": "Тіл / 28 тіл",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.3.1\nЕсептеу тарихы (алғашқы жаңа)\n~= шамамен нәтижеді білдіреді; әр элемент үшін бұрыштық бірліктер сақталады.\n\n"
 }

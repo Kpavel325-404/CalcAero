@@ -1,0 +1,14 @@
+{"checks": 22537, "reference": "Python Fraction + mpmath 100 digits", "seed": 20261004, "groups": {"core": 26, "rational": 10000, "angles": 2250, "inverse_angles": 1800, "transcendental": 2500, "hyperbolic": 1000, "complex": 707, "errors": 24, "bounds": 2, "tools": 221, "units": 7, "programmer": 4000}, "max_scaled_error": 2.010743688027545e-12, "status": "PASS"}
+{"status": "PASS", "checks": 2878, "groups": {"calculation": 556, "function_rejection": 5, "polynomial_identity": 280, "bounded_CAS": 5, "chain_rule": 270, "binomial": 340, "probability_edges": 24, "normal": 8, "normal_overflow_safe": 1, "probability_rejection": 3, "dimensions": 7, "dimension_rejection": 8, "matrix_arithmetic": 288, "matrix_rank": 72, "matrix_determinant": 72, "matrix_inverse": 70, "laboratory": 344, "vector": 90, "regression": 80, "nonlinear_regression": 3, "pole_rejection": 1, "graph_analysis": 1, "IEEE_encoding": 130, "IEEE_special": 10, "study": 210}, "seed": 20261009, "references": ["Fraction exact rational", "SymPy polynomial identities", "NumPy matrices and regressions", "mpmath 100 digits"], "physical_psp_test": false}
+PASS: editing, history context, memory, graph gaps, 30000 controller actions
+PASS: saved context, 256 CRC corruptions, backup recovery, invalid-state and I/O rollback, unique exports
+CALCAERO SELFTEST 62/62
+PASS: 30000 malformed expressions, int64 limits, factorial/combinations and native self-checks
+PASS: real CalcLab KP 1.0 save loaded; history, settings and Ans preserved
+PASS: 15 features, function history snapshots, three curves, lab, matrix and study controller flows
+PASS: portable Aero state, 256 CRC corruptions, truncated file, nonfinite rejection and I/O rollback
+PASS: unique CSV, SVG, TXT, graph gaps, matrix export and I/O failures
+PASS: 4000 malformed extension expressions under ASan/UBSan
+PASS: 28 language catalogs, legacy IDs unchanged, Portuguese/French restore/formatting, immediate JSON saves, default English, invalid/unset config, I/O rollback, 5000 malformed configs, two-column navigation
+{"status": "PASS", "checks": ["SVG XML, resolution and finite coordinates", "Graph CSV 241 samples, all curves and blank discontinuity", "History CSV exact rational and quoted expression", "History CSV exact rational and quoted expression"]}
+PASS: UI 1748 states, in-bounds geometry, max 17316 / 32768 vertices

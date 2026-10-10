@@ -287,7 +287,7 @@ int cl_export_history(const char *dir, const CLPersistent *s, char *name, size_t
         remove(p);
         return 0;
     }
-    fprintf(f, "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate "
+    fprintf(f, "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate "
                "result; angle units are saved for each item.\n\n");
     for (int i = 0; i < s->history_count; ++i) {
         const CLHistory *h = &s->history[i];

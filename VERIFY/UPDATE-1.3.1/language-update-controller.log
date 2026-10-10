@@ -1,0 +1,26 @@
+screen english-first-boot-28-languages
+screen english-portuguese-selected
+screen portuguese-calculator
+screen portuguese-28-language-picker
+screen portuguese-restart-661
+screen french-calculator
+screen french-28-language-picker
+Traceback (most recent call last):
+  File "/workspace/scratch/f88f298d7300/calcaero-link-renewal/CalcAero/tests/verify_language_update.py", line 213, in <module>
+    main()
+  File "/workspace/scratch/f88f298d7300/calcaero-link-renewal/CalcAero/tests/verify_language_update.py", line 187, in main
+    version = asyncio.run(exercise(restart))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspace/scratch/f88f298d7300/calcaero-link-renewal/CalcAero/tests/verify_language_update.py", line 85, in exercise
+    assert e.state()['history'] > before and e.state()['ans'][0] == .5
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

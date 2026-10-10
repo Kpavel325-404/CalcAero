@@ -19,12 +19,15 @@ import struct
 import subprocess
 import tempfile
 import zlib
+import re
+from build_locale import LANGS
 
 from PIL import Image
 import time
 import websockets
 
 ROOT = Path(__file__).resolve().parent.parent
+APP_TITLE = "CalcAero " + re.search(r'#define AERO_VERSION "([^\"]+)"', (ROOT / "src/aero.h").read_text()).group(1)
 MEM = ROOT / "build/emulator-test/ppsspp/PSP"
 GAME = MEM / "GAME/CalcAero"
 SCREEN = ROOT / "build/emulator-screens"
@@ -198,7 +201,7 @@ async def run(restart=False, continue_extensions=False):
         version = await p.request("version")
         await asyncio.sleep(1.5)
         title = (await p.request("game.status"))["game"]["title"]
-        assert title == "CalcAero 1.3", f"Unexpected EBOOT title: {title!r}"
+        assert title == APP_TITLE, f"Unexpected EBOOT title: {title!r}"
         if restart:
             assert json.loads((GAME/'config.json').read_text())['language']=='ru'
             await p.screen("restart-selftest")
@@ -218,7 +221,7 @@ async def run(restart=False, continue_extensions=False):
                 dict(status="PASS",emulator=version, checks=checks, controller_presses=press_count,
                      screens_directory=str(SCREEN.relative_to(ROOT)),
                      screenshot_source="PSP VRAM, software GPU", physical_psp_test=False,
-                     psp_model="PSP-1000 (32 MB)", cpu_mhz=222, languages=26,
+                     psp_model="PSP-1000 (32 MB)", cpu_mhz=222, languages=len(LANGS),
                      signed_eboot_sha256=hashlib.sha256((ROOT/"EBOOT-SIGNED.PBP").read_bytes()).hexdigest(),
                      eboot_sha256=hashlib.sha256((GAME/'EBOOT.PBP').read_bytes()).hexdigest(),
                      game_directory=str(GAME.relative_to(ROOT)),
@@ -241,14 +244,14 @@ async def run(restart=False, continue_extensions=False):
             await p.menu(1)
         else:
             p.page=12
-            await p.screen("first-start-english-26-languages")
+            await p.screen("first-start-english-28-languages")
             assert not (GAME/'config.json').exists()
             await p.press('cross')
             p.page=0
             assert json.loads((GAME/'config.json').read_text())['language']=='en'
-            checks.append('first boot defaults to English and immediately shows all 26 languages; selection writes JSON')
-            codes=['en','de','it','pl','es','nl','et','fi','sv','ro','el','ar','kk','ru','be','uk','sr','bs','hr','cs','sk','zh-TW','zh-CN','hi','ko','ja']
-            for lang in range(1,26):
+            checks.append('first boot defaults to English and immediately shows all 28 languages; selection writes JSON')
+            codes=LANGS
+            for lang in range(1,len(LANGS)):
                 await p.menu(21)
                 await p.press('down')
                 await p.press('cross')
@@ -257,10 +260,10 @@ async def run(restart=False, continue_extensions=False):
                 assert json.loads((GAME/'config.json').read_text())['language']==codes[lang]
                 await p.screen('language-'+codes[lang])
             await p.menu(21)
-            for _ in range(12):await p.press('up')
+            for _ in range(len(LANGS)-1-13):await p.press('up')
             await p.press('cross');p.page=0
             assert json.loads((GAME/'config.json').read_text())['language']=='ru'
-            checks.append('all 26 languages selected through PSP controller; immediate JSON checked; native glyph screenshots captured')
+            checks.append('all 28 languages selected through PSP controller; immediate JSON checked; native glyph screenshots captured')
             await p.screen("startup-selftest")
             await p.expression("1/3+1/6")
             await p.press("start")
@@ -394,7 +397,7 @@ async def run(restart=False, continue_extensions=False):
             await p.menu(18)
             report=await wait_file('CalcAero-Report-*.txt',tool+1)
             text=report.read_text()
-            assert text.startswith('CalcAero 1.3') and 'Режим углов' in text
+            assert text.startswith(APP_TITLE) and 'Режим углов' in text
             # Every sample succeeds; specific native numeric reports are inspected below.
             assert not any(q in text for q in ['Некоррект','Проверь параметры','Неизвестный инструмент','вне поддерживаемых'])
             if tool==0: assert 'Ответ = 1/2' in text

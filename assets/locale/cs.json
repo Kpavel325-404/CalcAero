@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down• položka  X• otevřené",
   "O or /\\: close menu": "O nebo /\\• Menu blízko",
   "Save failed: check the memory card": "Shromažďování selhalo: zkontrolujte paměťovou kartu",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Kalkulačka 1.3\n%s\nAnglický režim : %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Kalkulačka 1.3\n%s\nAnglický režim : %s\n\n",
   "Input: %s\n\n": "Vstupné : %s\n\n",
   "Formula exceeds supported rules or length limit": "Formule překračuje podporované pravidla nebo limit délky",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Vyžaduje úroveň <=8 Polynomiální s přesností int64 Koeficienty",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Integrovaný : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Změna: od 0 k %d",
   "Unknown operation": "Neznámá operace",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Kalkulačka 1.3\nHistorie výpočtu (newest first)\n* = znamená přibližný ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Kalkulačka 1.3\nHistorie výpočtu (newest first)\n* = znamená přibližný ",
   "result; angle units are saved for each item.\n\n": "výsledek; úhelové jednotky jsou uložené pro každý položka.\n\n",
   "Numbers": "Čísla",
   "Angles / logarithms": "Angles / logaritmy",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Pravidlo dodržuje DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "platný v doméně původní vzorce,",
   "where the function is differentiable.": "kde je funkce rozlišitelná.",
-  "Language / 26 languages": "Jazyk / 26 jazyků",
-  "Choose your language / 26": "Vyberte si svůj jazyk / 26",
+  "Language / 28 languages": "Jazyk / 28 jazyků",
+  "Choose your language / 28": "Vyberte si svůj jazyk / 28",
   "X: select and save  O: calculator": "X: vyberte a uložte O: kalkulačka",
   "Arrows: select  X/START: save language": "Zvolte X/START: Uložte jazyk",
   "Language is saved in config.json": "Jazyk je uložen v config.json",
   "Language save failed: check assets and memory card": "Jazyková úspora selhala: kontrolujte aktivy a paměťovou kartu",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Kalkulačka 1.3\nHistorie výpočtu (newest first)\n* = znamená přibližný výsledek; úhelové jednotky jsou uložené pro každý položka.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Kalkulačka 1.3\nHistorie výpočtu (newest first)\n* = znamená přibližný výsledek; úhelové jednotky jsou uložené pro každý položka.\n\n"
 }

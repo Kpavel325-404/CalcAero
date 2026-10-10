@@ -2,7 +2,7 @@
 #define CALCAERO_EXTENSIONS_H
 #include "calc.h"
 #include "tools.h"
-#define AERO_VERSION "1.3"
+#define AERO_VERSION "1.3.1"
 #define AERO_FUNCTIONS 3
 #define AERO_CURVES 3
 #define AERO_FORMULAS 12

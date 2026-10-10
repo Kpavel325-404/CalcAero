@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down> Il punto  X• aperto",
   "O or /\\: close menu": "O o /\\Il menu vicino",
   "Save failed: check the memory card": "Salva fallito: verifica la scheda di memoria",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Calcario 1.3\n%s\nModalità di angolo: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Calcario 1.3\n%s\nModalità di angolo: %s\n\n",
   "Input: %s\n\n": "Introduzione : %s\n\n",
   "Formula exceeds supported rules or length limit": "La formula supera le regole supportate o il limite di lunghezza",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Richiede il grado <=8 Polinomiale con esatto int64 Coefficienti",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Gli integratori: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Cambiamento: da 0 per %d",
   "Unknown operation": "Operazione sconosciuta",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Calcario 1.3\nStoria del calcolo (nord-ovest primo)\n* = significa un approccio ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Calcario 1.3\nStoria del calcolo (nord-ovest primo)\n* = significa un approccio ",
   "result; angle units are saved for each item.\n\n": "risultato; le unità angolare sono salvate per ogni elemento.\n\n",
   "Numbers": "Numeri",
   "Angles / logarithms": "Inglesi / Logaritmi",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "La regola rispetta DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "valido nel dominio della formula originale,",
   "where the function is differentiable.": "dove la funzione è differenziabile.",
-  "Language / 26 languages": "Lingua / 26 lingue",
-  "Choose your language / 26": "Scegli la tua lingua / 26",
+  "Language / 28 languages": "Lingua / 28 lingue",
+  "Choose your language / 28": "Scegli la tua lingua / 28",
   "X: select and save  O: calculator": "X: selezionare e salvare O: calcolatore",
   "Arrows: select  X/START: save language": "Scegliere X/START: salvare il linguaggio",
   "Language is saved in config.json": "Il linguaggio è salvato in config.json",
   "Language save failed: check assets and memory card": "Il linguaggio di salvataggio fallito: controllare i beni e la scheda di memoria",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Calcario 1.3\nStoria del calcolo (nord-ovest primo)\n* = significa un approccio risultato; le unità angolare sono salvate per ogni elemento.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Calcario 1.3\nStoria del calcolo (nord-ovest primo)\n* = significa un approccio risultato; le unità angolare sono salvate per ogni elemento.\n\n"
 }

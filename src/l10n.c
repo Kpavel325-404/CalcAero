@@ -12,7 +12,7 @@ static size_t catalog_size;
 static uint32_t count;
 static const char *codes[LANG_COUNT] = {"en", "de", "it", "pl",    "es",    "nl", "et", "fi", "sv",
                                         "ro", "el", "ar", "kk",    "ru",    "be", "uk", "sr", "bs",
-                                        "hr", "cs", "sk", "zh-TW", "zh-CN", "hi", "ko", "ja"};
+                                        "hr", "cs", "sk", "zh-TW", "zh-CN", "hi", "ko", "ja", "pt", "fr"};
 static const char *names[LANG_COUNT] = {"English",
                                         "Deutsch",
                                         "Italiano",
@@ -38,7 +38,9 @@ static const char *names[LANG_COUNT] = {"English",
                                         "Chinese (Simplified)",
                                         "Hindi",
                                         "Korean",
-                                        "Japanese"};
+                                        "Japanese",
+                                        "Portugu\303\252s",
+                                        "Fran\303\247ais"};
 int ca_language(void) { return language; }
 const char *ca_language_code(int id) { return id >= 0 && id < LANG_COUNT ? codes[id] : "en"; }
 const char *ca_language_name(int id) { return id >= 0 && id < LANG_COUNT ? names[id] : "?"; }

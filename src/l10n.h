@@ -30,8 +30,11 @@ enum {
     LANG_HI,
     LANG_KO,
     LANG_JA,
+    LANG_PT,
+    LANG_FR,
     LANG_COUNT
 };
+#define CA_LANGUAGE_ROWS ((LANG_COUNT + 1) / 2)
 int ca_language(void);
 const char *ca_language_code(int lang);
 const char *ca_language_name(int lang);

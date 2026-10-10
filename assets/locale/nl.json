@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down: item  X: open",
   "O or /\\: close menu": "O of /\\De menu dichtbij",
   "Save failed: check the memory card": "Save failed: controleer het geheugenkaart",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "CALCAERO 1.3\n%s\nDe angelstijl: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "CALCAERO 1.3\n%s\nDe angelstijl: %s\n\n",
   "Input: %s\n\n": "Invoeren : %s\n\n",
   "Formula exceeds supported rules or length limit": "Formule overschrijdt ondersteunde regels of lengtegrens",
   "Requires degree <=8 polynomial with exact int64 coefficients": "De graad vereist =8 Polynomial met exacte int64 Coeficiëntie",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Integraatjes : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Vervanging: van 0 tot %d",
   "Unknown operation": "Onbekende operatie",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "CALCAERO 1.3\nBerekeningsgeschiedenis (Newest First)\n* = betekent een ongeveer ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "CALCAERO 1.3\nBerekeningsgeschiedenis (Newest First)\n* = betekent een ongeveer ",
   "result; angle units are saved for each item.\n\n": "resultaat; de hoek eenheden worden opgeslagen voor elk item.\n\n",
   "Numbers": "cijfers",
   "Angles / logarithms": "Engelen / Logarithmen",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "De regels respecteren DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Geldig in de domein van de oorspronkelijke formule,",
   "where the function is differentiable.": "waar de functie differentieel is.",
-  "Language / 26 languages": "Taal / 26 talen",
-  "Choose your language / 26": "Kies uw taal / 26",
+  "Language / 28 languages": "Taal / 28 talen",
+  "Choose your language / 28": "Kies uw taal / 28",
   "X: select and save  O: calculator": "X: selecteren en opslaan O: calculator",
   "Arrows: select  X/START: save language": "Routes: selecteer X/START: Speel taal",
   "Language is saved in config.json": "De taal is opgeslagen in config.json",
   "Language save failed: check assets and memory card": "Taal opslaan mislukt: controleer activa en geheugenkaart",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CALCAERO 1.3\nBerekeningsgeschiedenis (Newest First)\n* = betekent een ongeveer resultaat; de hoek eenheden worden opgeslagen voor elk item.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CALCAERO 1.3\nBerekeningsgeschiedenis (Newest First)\n* = betekent een ongeveer resultaat; de hoek eenheden worden opgeslagen voor elk item.\n\n"
 }

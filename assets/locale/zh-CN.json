@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down标签: 物品  X: 开放",
   "O or /\\: close menu": "O 或 /\\密集菜单",
   "Save failed: check the memory card": "保存失败:检查记忆卡",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "卡尔卡 1.3\n%s\n角度模式: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "卡尔卡 1.3\n%s\n角度模式: %s\n\n",
   "Input: %s\n\n": "入口: %s\n\n",
   "Formula exceeds supported rules or length limit": "公式超越支持的规则或长度限制",
   "Requires degree <=8 polynomial with exact int64 coefficients": "需要程度>=8 多元化与准确 int64 因子",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "包容者: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "转换:从 0 到 %d",
   "Unknown operation": "未知操作",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "卡尔卡 1.3\n计算史(西初)\n* = 意思是大约 ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "卡尔卡 1.3\n计算史(西初)\n* = 意思是大约 ",
   "result; angle units are saved for each item.\n\n": "结果;每个项目的角度单位都存储。\n\n",
   "Numbers": "数字",
   "Angles / logarithms": "英格兰 / Logarithms",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "规则遵守 DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "在原始公式的域内有效,",
   "where the function is differentiable.": "函数是可区分的。",
-  "Language / 26 languages": "语言 / 26 种语言",
-  "Choose your language / 26": "選擇你的語言 / 26",
+  "Language / 28 languages": "语言 / 28 种语言",
+  "Choose your language / 28": "選擇你的語言 / 28",
   "X: select and save  O: calculator": "X: 选择和保存 O: 计算机",
   "Arrows: select  X/START: save language": "点击: 选择 X/START: 保存语言",
   "Language is saved in config.json": "语言存储在 config.json",
   "Language save failed: check assets and memory card": "语言保存失败:检查资产和记忆卡",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "卡尔卡 1.3\n计算史(西初)\n* = 意思是大约 结果;每个项目的角度单位都存储。\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "卡尔卡 1.3\n计算史(西初)\n* = 意思是大约 结果;每个项目的角度单位都存储。\n\n"
 }

@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/downEtichetă: item  X• deschisă",
   "O or /\\: close menu": "O sau /\\Menu apropiat",
   "Save failed: check the memory card": "Salvați eșuat: verificați cardul de memorie",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Calculează 1.3\n%s\nModul de unghi: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Calculează 1.3\n%s\nModul de unghi: %s\n\n",
   "Input: %s\n\n": "Introducere în: %s\n\n",
   "Formula exceeds supported rules or length limit": "Formula depășește regulile susținute sau limita de lungime",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Cerințe de grad <=8 Polinomial cu exactitate int64 Coeficientele",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Întreprinderi : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Schimbare: de la 0 pentru %d",
   "Unknown operation": "Operaţiuni necunoscute",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Calculează 1.3\nIstoria calculului (născut în primul rând)\n* = înseamnă aproximativă ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Calculează 1.3\nIstoria calculului (născut în primul rând)\n* = înseamnă aproximativă ",
   "result; angle units are saved for each item.\n\n": "rezultatul; unitățile de unghi sunt salvate pentru fiecare element.\n\n",
   "Numbers": "Număruri",
   "Angles / logarithms": "Angle / Logaritmuri",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Regula respectă DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "valabil în domeniu original al formulei,",
   "where the function is differentiable.": "În cazul în care funcția este diferențiabilă.",
-  "Language / 26 languages": "Limbă / 26 de limbi",
-  "Choose your language / 26": "Alegeți limba / 26",
+  "Language / 28 languages": "Limbă / 28 de limbi",
+  "Choose your language / 28": "Alegeți limba / 28",
   "X: select and save  O: calculator": "X: selectați și salvați O: calculator",
   "Arrows: select  X/START: save language": "Aruncă: selectați X/START: salvați limba",
   "Language is saved in config.json": "Limba este salvată în config.json",
   "Language save failed: check assets and memory card": "Limbă de salvare eșuată: verificați activele și cardul de memorie",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Calculează 1.3\nIstoria calculului (născut în primul rând)\n* = înseamnă aproximativă rezultatul; unitățile de unghi sunt salvate pentru fiecare element.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Calculează 1.3\nIstoria calculului (născut în primul rând)\n* = înseamnă aproximativă rezultatul; unitățile de unghi sunt salvate pentru fiecare element.\n\n"
 }

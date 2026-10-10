@@ -7,7 +7,7 @@ from pathlib import Path
 import websockets
 import emulator_verify as e
 ROOT=e.ROOT
-CODES=['en','de','it','pl','es','nl','et','fi','sv','ro','el','ar','kk','ru','be','uk','sr','bs','hr','cs','sk','zh-TW','zh-CN','hi','ko','ja']
+CODES=e.LANGS
 async def connect():
  for _ in range(60):
   try:return await websockets.connect('ws://127.0.0.1:24680/debugger',subprotocols=['debugger.ppsspp.org'],open_timeout=1,max_size=2000000)
@@ -15,14 +15,14 @@ async def connect():
  raise RuntimeError('debugger unavailable')
 async def language(p,lang,old):
  await p.press('triangle');await p.press('select');p.page=12
- await p.moves('down','up',(lang-old)%26,(old-lang)%26)
+ await p.moves('down','up',(lang-old)%len(CODES),(old-lang)%len(CODES))
  await p.press('cross');p.page=0
  actual=json.loads((e.GAME/'config.json').read_text())['language'];assert actual==CODES[lang],actual
 async def run(restart):
  ws=await connect()
  async with ws:
   p=e.Pad(ws);version=await p.request('version');await asyncio.sleep(1)
-  status=await p.request('game.status');assert status['game']['title']=='CalcAero 1.3'
+  status=await p.request('game.status');assert status['game']['title']==e.APP_TITLE
   await p.screen('final-signed-restart-661' if restart else 'final-signed-start-660')
   assert json.loads((e.GAME/'config.json').read_text())['language']=='ru'
   if restart:
@@ -38,7 +38,7 @@ async def run(restart):
   for tool in range(14):
    await p.press('cross');await p.press('start');await p.screen('final-lab-'+str(tool))
    await p.menu(18);file=await e.wait_file('CalcAero-Report-*.txt',count+tool+1);text=file.read_text()
-   assert text.startswith('CalcAero 1.3') and 'Режим углов' in text
+   assert text.startswith(e.APP_TITLE) and 'Режим углов' in text
    assert not any(q in text for q in ['Некоррект','Проверь параметры','Неизвестный инструмент','вне поддерживаемых'])
    if tool==0:assert 'Ответ = 1/2' in text
    if tool==3:assert 'A . B ~= 32' in text
@@ -63,11 +63,11 @@ async def run(restart):
   await p.expression('f(2)');await p.press('start');value=await e.saved('f(2)',9);assert 'f(' not in value['latest'];await p.screen('final-user-function')
   e.checks.append('final signed EBOOT: study, 2D formula, saved function and frozen history')
   old=13
-  for lang in range(26):
+  for lang in range(len(CODES)):
    await language(p,lang,old);old=lang
    await p.menu(9);await p.screen('final-language-'+CODES[lang]);await p.menu(0)
   await language(p,13,old)
-  e.checks.append('final signed EBOOT: all 26 final catalogs and fonts, SELECT menu shortcut and immediate config.json writes')
+  e.checks.append('final signed EBOOT: all 28 final catalogs and fonts, SELECT menu shortcut and immediate config.json writes')
   await p.menu(9)
   for _ in range(5):await p.press('down')
   oldtheme=struct.unpack_from('<I',e.state()['raw'],324)[0]
@@ -111,6 +111,6 @@ def main():
     try:proc.wait(5)
     except subprocess.TimeoutExpired:proc.kill();proc.wait()
  result=dict(status='PASS',emulator=version,signed_eboot_sha256=hashlib.sha256((ROOT/'EBOOT-SIGNED.PBP').read_bytes()).hexdigest(),unsigned_eboot_sha256=hashlib.sha256((ROOT/'EBOOT.PBP').read_bytes()).hexdigest(),model='PSP-1000',ram_mib=32,cpu_mhz=222,hle_firmware_profiles=[660,661],physical_ofw_test=False,controller_presses=e.press_count,checks=e.checks,game_directory=str(e.GAME.relative_to(ROOT)),screens_directory=str(e.SCREEN.relative_to(ROOT)),assets={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'assets').rglob('*') if p.is_file()},baseline_sha256='e8ec50dc040aecf6b9a632adeef8698cf6748953c0c4d4e1a273e70ac8b8c69f')
- (ROOT/'build/final-native-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print('PASS: final signed native PSP build, 32 MB / 222 MHz, 26 languages, 8 themes, 14 labs, restart',flush=True)
+ (ROOT/'build/final-native-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print('PASS: final signed native PSP build, 32 MB / 222 MHz, 28 languages, 8 themes, 14 labs, restart',flush=True)
 async def run_step(restart):return await run(restart)
 if __name__=='__main__':main()

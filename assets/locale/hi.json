@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down: आइटम  X: खुला",
   "O or /\\: close menu": "O या /\\मेनू के करीब",
   "Save failed: check the memory card": "असफल बचाएं: स्मृति कार्ड की जांच करें",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "कैल्शियम 1.3\n%s\nअंगूठी मोड: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "कैल्शियम 1.3\n%s\nअंगूठी मोड: %s\n\n",
   "Input: %s\n\n": "इनपुट : %s\n\n",
   "Formula exceeds supported rules or length limit": "फॉर्मूला समर्थित नियमों या लंबाई सीमा से अधिक है",
   "Requires degree <=8 polynomial with exact int64 coefficients": "डिग्री की आवश्यकता होती है =8 Polynomial के साथ सटीक int64 Coefficients के बारे में",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "इंटेलिजेंस : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "बदलाव : से 0 के लिए %d",
   "Unknown operation": "अज्ञात ऑपरेशन",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "कैल्शियम 1.3\nगणना इतिहास (पहले पश्चिम)\n* = एक अनुपात का अर्थ है ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "कैल्शियम 1.3\nगणना इतिहास (पहले पश्चिम)\n* = एक अनुपात का अर्थ है ",
   "result; angle units are saved for each item.\n\n": "परिणाम; प्रत्येक आइटम के लिए कोण इकाइयों को बचाया जाता है।\n\n",
   "Numbers": "संख्याएँ",
   "Angles / logarithms": "अंग्रेजी / Logarithms",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "नियम का सम्मान DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "प्रारंभिक सूत्र के डोमेन में वैध,",
   "where the function is differentiable.": "जहां कार्य अलग-अलग है।",
-  "Language / 26 languages": "भाषा / 26 भाषाएँ",
-  "Choose your language / 26": "अपनी भाषा का चयन करें / 26",
+  "Language / 28 languages": "भाषा / 28 भाषाएँ",
+  "Choose your language / 28": "अपनी भाषा का चयन करें / 28",
   "X: select and save  O: calculator": "X: चुनें और सहेजें O: कैलकुलर",
   "Arrows: select  X/START: save language": "आउटपुट: X/START चुनें: भाषा बचाएं",
   "Language is saved in config.json": "भाषा config.json में संग्रहीत की जाती है",
   "Language save failed: check assets and memory card": "भाषा बचत विफल: संपत्ति और स्मृति कार्ड की जांच करें",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "कैल्शियम 1.3\nगणना इतिहास (पहले पश्चिम)\n* = एक अनुपात का अर्थ है परिणाम; प्रत्येक आइटम के लिए कोण इकाइयों को बचाया जाता है।\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "कैल्शियम 1.3\nगणना इतिहास (पहले पश्चिम)\n* = एक अनुपात का अर्थ है परिणाम; प्रत्येक आइटम के लिए कोण इकाइयों को बचाया जाता है।\n\n"
 }

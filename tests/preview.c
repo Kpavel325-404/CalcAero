@@ -91,7 +91,37 @@ static void render(const char *name) {
         peak = pp_vertex_count;
     ++frames;
 }
-int main(void) {
+static void render_icon(void) {
+    /* XMB icon made with the same smooth renderer, without extra runtime assets. */
+    gfx_begin();
+    gfx_gradient(0,0,144,80,PP_RGB(162,221,240),PP_RGB(46,145,185));
+    gfx_round(12,10,120,61,10,PP_RGBA(15,65,83,70));
+    gfx_round_gradient(12,8,120,61,10,PP_RGB(247,255,255),PP_RGB(206,237,247));
+    gfx_round_gradient(15,11,114,24,8,PP_RGBA(255,255,255,230),PP_RGBA(255,255,255,20));
+    gfx_text(29,15,"f(x)",2,PP_RGB(0,105,150));
+    gfx_text(69,43,"CalcAero",1,PP_RGB(20,78,101));
+    gfx_round_gradient(22,45,44,14,5,PP_RGB(184,236,172),PP_RGB(100,186,120));
+    gfx_text(27,45,AERO_VERSION,1,PP_RGB(26,89,57));
+    snprintf(filename,sizeof(filename),"build/app-icon.ppm");
+    gfx_end();
+}
+int main(int argc, char **argv) {
+    if (argc == 2 && !strcmp(argv[1], "--pic1-only")) {
+        assert(ca_locale_load(".", LANG_EN));
+        assert(ca_font_select(".", LANG_EN));
+        cl_app_init(&a);
+        cl_app_input(&a, "sin(30)+1/3");
+        cl_app_evaluate(&a);
+        a.notice[0] = 0;
+        render("xmb-background");
+        ca_font_close();
+        ca_locale_close();
+        return 0;
+    }
+    if (argc == 2 && !strcmp(argv[1], "--icon-only")) {
+        render_icon();
+        return 0;
+    }
     assert(ca_locale_load(".",LANG_RU));
     assert(ca_font_select(".",LANG_RU));
     /* A fractional-coverage atlas is required; a one-bit font cannot pass. */
@@ -310,17 +340,6 @@ int main(void) {
     fclose(f);
     printf("PASS: UI %d states, in-bounds geometry, max %d / %d vertices\n", frames, peak,
            PP_MAX_VERTICES);
-    /* XMB icon made with the same smooth renderer, without extra runtime assets. */
-    gfx_begin();
-    gfx_gradient(0,0,144,80,PP_RGB(162,221,240),PP_RGB(46,145,185));
-    gfx_round(12,10,120,61,10,PP_RGBA(15,65,83,70));
-    gfx_round_gradient(12,8,120,61,10,PP_RGB(247,255,255),PP_RGB(206,237,247));
-    gfx_round_gradient(15,11,114,24,8,PP_RGBA(255,255,255,230),PP_RGBA(255,255,255,20));
-    gfx_text(29,15,"f(x)",2,PP_RGB(0,105,150));
-    gfx_text(69,43,"CalcAero",1,PP_RGB(20,78,101));
-    gfx_round_gradient(22,45,36,14,5,PP_RGB(184,236,172),PP_RGB(100,186,120));
-    gfx_text(27,45,"1.3",1,PP_RGB(26,89,57));
-    snprintf(filename,sizeof(filename),"build/app-icon.ppm");
-    gfx_end();
+    render_icon();
     return 0;
 }

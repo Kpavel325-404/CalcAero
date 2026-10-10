@@ -75,7 +75,7 @@ static const char *page_name(int p) {
                               "Matrices A / B",
                               "Study mode",
                               "Formula / 2D",
-                              "Language / 26 languages"};
+                              "Language / 28 languages"};
     return p >= 0 && p < CL_PAGE_COUNT ? L(s[p]) : "?";
 }
 static const char *angle_name(int a) { return a == 0 ? "DEG" : a == 1 ? "RAD" : "GRAD"; }
@@ -141,7 +141,7 @@ static void header(const CLApp *a, Palette p) {
     gfx_round_gradient(13, 6, 25, 12, 5, PP_RGBA(255, 255, 255, 190), PP_RGBA(255, 255, 255, 10));
     gfx_text(20, 3, "f", 2, PP_RGB(21, 91, 105));
     gfx_text(47, 3, "CalcAero", 2, p.ink);
-    gfx_text(184, 22, "PSP / 1.3", 1, p.muted);
+    gfx_text(184, 22, "PSP / " AERO_VERSION, 1, p.muted);
     char s[96];
     uint32_t pill = (p.panel & UINT32_C(0x00ffffff)) | UINT32_C(0xb0000000);
     gfx_round(282, 5, 46, 16, 5, pill);
@@ -577,7 +577,7 @@ static void menu(const CLApp *a, Palette p) {
     gfx_round_gradient(44, 40, 392, 21, 5, gfx_mix(p.key, p.panel, .6f), p.key);
     fit(57, 44, "CALCAERO / MENU", 30, 1, p.accent);
     char language[96];
-    snprintf(language, sizeof(language), "SELECT: %s", L("Language / 26 languages"));
+    snprintf(language, sizeof(language), "SELECT: %s", L("Language / 28 languages"));
     fit(245, 44, language, 29, 1, p.accent);
     int start = a->menu_row > 6 ? a->menu_row - 6 : 0;
     if (start > CL_MENU_COUNT - 7)
@@ -590,12 +590,12 @@ static void menu(const CLApp *a, Palette p) {
     footer("Up/down: item  X: open", "O or /\\: close menu", p);
 }
 static void languages(const CLApp *a, Palette p) {
-    fit(15, 42, "Choose your language / 26", 73, 1, p.accent);
+    fit(15, 42, "Choose your language / 28", 73, 1, p.accent);
     for (int i = 0; i < LANG_COUNT; i++) {
-        int x = 11 + (i / 13) * 232, y = 62 + (i % 13) * 13;
+        int x = 11 + (i / CA_LANGUAGE_ROWS) * 232, y = 62 + (i % CA_LANGUAGE_ROWS) * 12;
         int chosen = i == a->language_row;
         if (chosen)
-            gfx_round(x, y, 226, 13, 3, p.selected);
+            gfx_round(x, y, 226, 12, 3, p.selected);
         char label[96];
         snprintf(label, sizeof(label), "%02d %s%s", i + 1, ca_language_name(i),
                  i == ca_language() ? " *" : "");

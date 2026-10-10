@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down• kohteen  X• avoin",
   "O or /\\: close menu": "O tai /\\Lähellä menu",
   "Save failed: check the memory card": "Tallenna epäonnistunut: tarkista muistikortti",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Kalkuri 1.3\n%s\nSilmämuotoa varten: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Kalkuri 1.3\n%s\nSilmämuotoa varten: %s\n\n",
   "Input: %s\n\n": "Sisäänkäynti : %s\n\n",
   "Formula exceeds supported rules or length limit": "Formula ylittää tukemattomia sääntöjä tai pituusrajaa",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Tarvitaan tutkinto =8 Polynomialinen tarkasti int64 Koeficientit",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Sisältöön kuuluvat: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Siirtyminen: alkaen 0 Tähän %d",
   "Unknown operation": "Tietämätön toiminta",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Kalkuri 1.3\nLaskentahistoria (lähde ensimmäisenä)\n* = tarkoittaa noin ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Kalkuri 1.3\nLaskentahistoria (lähde ensimmäisenä)\n* = tarkoittaa noin ",
   "result; angle units are saved for each item.\n\n": "tulos; kulman yksiköt tallennetaan jokaiselle kohteelle.\n\n",
   "Numbers": "numeroita",
   "Angles / logarithms": "Englanti / Logaritmi",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Säännöt kunnioittavat DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Käytettävissä alkuperäisen kaavan verkkotunnuksessa,",
   "where the function is differentiable.": "jossa toiminta on erilaista.",
-  "Language / 26 languages": "Kieli / 26 kieltä",
-  "Choose your language / 26": "Valitse kieli / 26",
+  "Language / 28 languages": "Kieli / 28 kieltä",
+  "Choose your language / 28": "Valitse kieli / 28",
   "X: select and save  O: calculator": "X: valitse ja säästä O: laskuri",
   "Arrows: select  X/START: save language": "Valitse X/START: Tallenna kieli",
   "Language is saved in config.json": "Kieli on tallennettu config.jsonissa",
   "Language save failed: check assets and memory card": "Kielen tallennus epäonnistui: tarkista omaisuus ja muistikortti",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Kalkuri 1.3\nLaskentahistoria (lähde ensimmäisenä)\n* = tarkoittaa noin tulos; kulman yksiköt tallennetaan jokaiselle kohteelle.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Kalkuri 1.3\nLaskentahistoria (lähde ensimmäisenä)\n* = tarkoittaa noin tulos; kulman yksiköt tallennetaan jokaiselle kohteelle.\n\n"
 }

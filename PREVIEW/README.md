@@ -1,5 +1,10 @@
 # CalcAero — English screenshot gallery
 
+The main README's `languages/en.png` now shows the 28-language picker from the
+signed 1.3.1 update in PPSSPP. Its provenance and complete test frames are in
+[VERIFY/UPDATE-1.3.1](../VERIFY/UPDATE-1.3.1/README.md). The 18 owner captures
+below remain unchanged records of version 1.3.
+
 These 18 screen dumps were supplied by the project owner on 10 October 2026.
 They show CalcAero 1.3 with English selected. Each PNG preserves every pixel
 of its original 480×272 BMP; capture notifications are retained.

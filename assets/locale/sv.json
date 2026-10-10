@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/down: objektet  X• Öppna",
   "O or /\\: close menu": "O eller /\\Nära menyn",
   "Save failed: check the memory card": "Spara misslyckad: kontrollera minneskortet",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "CalcAero 1.3\n%s\nAngle läge : %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "CalcAero 1.3.1\n%s\nAngle läge : %s\n\n",
   "Input: %s\n\n": "Inträde : %s\n\n",
   "Formula exceeds supported rules or length limit": "Formeln överskrider de stödda reglerna eller längdgränsen",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Behöver en grad =8 Polynomi med exakt int64 Koefficienter",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Innehållare : DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Shift: från 0 till %d",
   "Unknown operation": "okänd operation",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.3\nBeräkningshistoria (Nöwest först)\n* = betyder en ungefärlig ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "CalcAero 1.3.1\nBeräkningshistoria (Nöwest först)\n* = betyder en ungefärlig ",
   "result; angle units are saved for each item.\n\n": "resultat; vinklarenheter sparas för varje objekt.\n\n",
   "Numbers": "siffror",
   "Angles / logarithms": "Engel / Logarithm",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "Regeln respekterar DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "gällande i ursprungliga formelens domän,",
   "where the function is differentiable.": "där funktionen är differentiell.",
-  "Language / 26 languages": "Språk / 26 språk",
-  "Choose your language / 26": "Välj ditt språk / 26",
+  "Language / 28 languages": "Språk / 28 språk",
+  "Choose your language / 28": "Välj ditt språk / 28",
   "X: select and save  O: calculator": "X: Välj och spara O: kalkylare",
   "Arrows: select  X/START: save language": "Välj X/START: Spara språk",
   "Language is saved in config.json": "Språket sparas i config.json",
   "Language save failed: check assets and memory card": "Språket spara misslyckats: kontrollera tillgångar och minneskort",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.3\nBeräkningshistoria (Nöwest först)\n* = betyder en ungefärlig resultat; vinklarenheter sparas för varje objekt.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "CalcAero 1.3.1\nBeräkningshistoria (Nöwest först)\n* = betyder en ungefärlig resultat; vinklarenheter sparas för varje objekt.\n\n"
 }

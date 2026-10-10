@@ -1,0 +1,15 @@
+CalcAero 1.3.1: Português + Français, 28 языков.
+
+PSP: скопируй папку PSP на карту памяти с объединением папок.
+Замени EBOOT.PBP и всю папку assets в PSP/GAME/CalcAero.
+Не удаляй папку CalcAero и свои config.json, state.dat, aero.dat, backups, reports.
+Новые языки: △ -> SELECT -> Português (27) / Français (28) -> X/START.
+
+GitHub: содержимое GitHub-Update скопируй в существующую папку репозитория.
+В GitHub Desktop: Commit to main -> Push origin.
+Подробности: GitHub-Update/GITHUB-SETUP.md.
+Не копируй GitHub-Update на PSP.
+
+Проверки сборки/подписи, 25 415 численных проверок, 1 748 UI-состояний
+и запуск/сохранения обоих языков в PPSSPP прошли.
+Физический тест новой 1.3.1 на OFW/CFW ещё ожидается.

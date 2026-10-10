@@ -1,5 +1,9 @@
 # Verification records
 
+[UPDATE-1.3.1](UPDATE-1.3.1/README.md) contains fresh reports for the Portuguese
+update. The original 1.3 records below are kept separately with their original
+version, hashes and physical-test scope.
+
 The release's original reports are preserved; no historical JSON is edited to
 turn an emulator result into a physical console result.
 

@@ -210,7 +210,7 @@
   "Up/down: item  X: open": "Up/downEl elemento  X• Abierto",
   "O or /\\: close menu": "O o /\\Menú Certo",
   "Save failed: check the memory card": "Salva fallido: comprobar la tarjeta de memoria",
-  "CalcAero 1.3\n%s\nAngle mode: %s\n\n": "Cálculo 1.3\n%s\nModo de ángulo: %s\n\n",
+  "CalcAero 1.3.1\n%s\nAngle mode: %s\n\n": "Cálculo 1.3\n%s\nModo de ángulo: %s\n\n",
   "Input: %s\n\n": "Introducción : %s\n\n",
   "Formula exceeds supported rules or length limit": "La fórmula supera las reglas o límite de longitud apoyadas",
   "Requires degree <=8 polynomial with exact int64 coefficients": "Require un grado <=8 Polinomial con exactitud int64 Coeficientes",
@@ -327,7 +327,7 @@
   "Integers: DEC, 0xHEX, 0bBIN, 0oOCT": "Los integrantes: DEC, 0xHEX, 0bBIN, 0oOCT",
   "Shift: from 0 to %d": "Cambios: desde 0 para %d",
   "Unknown operation": "Operaciones desconocidas",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate ": "Cálculo 1.3\nHistoria del cálculo (noeste primero)\n* = significa una aproximación ",
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate ": "Cálculo 1.3\nHistoria del cálculo (noeste primero)\n* = significa una aproximación ",
   "result; angle units are saved for each item.\n\n": "resultado; las unidades de ángulo se guardan para cada elemento.\n\n",
   "Numbers": "Números",
   "Angles / logarithms": "Inglés / Logarítmos",
@@ -527,11 +527,11 @@
   "The rule respects DEG/RAD/GRAD": "La regla respeta DEG/RAD/GRAD",
   "Valid in the original formula's domain,": "Valida en el dominio de la fórmula original,",
   "where the function is differentiable.": "donde la función es diferenciable.",
-  "Language / 26 languages": "Idioma / 26 idiomas",
-  "Choose your language / 26": "Elegir tu lenguaje / 26",
+  "Language / 28 languages": "Idioma / 28 idiomas",
+  "Choose your language / 28": "Elegir tu lenguaje / 28",
   "X: select and save  O: calculator": "X: seleccionar y guardar O: calculador",
   "Arrows: select  X/START: save language": "Taller: Seleccione X/START: Salva el idioma",
   "Language is saved in config.json": "El lenguaje se salva en config.json",
   "Language save failed: check assets and memory card": "El lenguaje de ahorro falló: comprobar los activos y la tarjeta de memoria",
-  "CalcAero 1.3\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Cálculo 1.3\nHistoria del cálculo (noeste primero)\n* = significa una aproximación resultado; las unidades de ángulo se guardan para cada elemento.\n\n"
+  "CalcAero 1.3.1\nCalculation history (newest first)\n~= means an approximate result; angle units are saved for each item.\n\n": "Cálculo 1.3\nHistoria del cálculo (noeste primero)\n* = significa una aproximación resultado; las unidades de ángulo se guardan para cada elemento.\n\n"
 }

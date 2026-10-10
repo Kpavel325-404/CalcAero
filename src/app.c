@@ -165,7 +165,7 @@ const char *cl_menu_name(int row) {
                                   "Export tool result to TXT",
                                   "Save and exit",
                                   "Textbook formula: full screen",
-                                  "Language / 26 languages"};
+                                  "Language / 28 languages"};
     return row >= 0 && row < CL_MENU_COUNT ? L(names[row]) : "?";
 }
 const char *cl_graph_expression(const CLApp *a, int series) {
@@ -721,8 +721,11 @@ void cl_app_key(CLApp *a, unsigned k) {
             a->language_row = (a->language_row + LANG_COUNT - 1) % LANG_COUNT;
         if (k & KEY_DOWN)
             a->language_row = (a->language_row + 1) % LANG_COUNT;
-        if (k & (KEY_LEFT | KEY_RIGHT))
-            a->language_row = (a->language_row + 13) % LANG_COUNT;
+        if (k & (KEY_LEFT | KEY_RIGHT)) {
+            int row = a->language_row % CA_LANGUAGE_ROWS;
+            int target = a->language_row < CA_LANGUAGE_ROWS ? row + CA_LANGUAGE_ROWS : row;
+            a->language_row = target < LANG_COUNT ? target : LANG_COUNT - 1;
+        }
         if (k & (KEY_CROSS | KEY_START))
             a->request_language = a->language_row;
         if (k & KEY_CIRCLE)

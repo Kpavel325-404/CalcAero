@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": 2878,
+  "groups": {
+    "calculation": 556,
+    "function_rejection": 5,
+    "polynomial_identity": 280,
+    "bounded_CAS": 5,
+    "chain_rule": 270,
+    "binomial": 340,
+    "probability_edges": 24,
+    "normal": 8,
+    "normal_overflow_safe": 1,
+    "probability_rejection": 3,
+    "dimensions": 7,
+    "dimension_rejection": 8,
+    "matrix_arithmetic": 288,
+    "matrix_rank": 72,
+    "matrix_determinant": 72,
+    "matrix_inverse": 70,
+    "laboratory": 344,
+    "vector": 90,
+    "regression": 80,
+    "nonlinear_regression": 3,
+    "pole_rejection": 1,
+    "graph_analysis": 1,
+    "IEEE_encoding": 130,
+    "IEEE_special": 10,
+    "study": 210
+  },
+  "seed": 20261009,
+  "references": [
+    "Fraction exact rational",
+    "SymPy polynomial identities",
+    "NumPy matrices and regressions",
+    "mpmath 100 digits"
+  ],
+  "physical_psp_test": false
+}
